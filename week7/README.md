@@ -1,10 +1,12 @@
 # Local Measures
 
+Source: https://github.com/the-other-mariana/stats-ds/blob/master/week7/session-07.R
+
 ## Frequency Distribution Table
 
 Also known as Absolute Frequency, is a table that shows for each existing value, how many times did such value appeared on a column.
 
-![img](1)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/1.png?raw=true)
 
 In other words: the frequency distribution of a data variable (column) is a summary of the data 
 **occurrence** in a collection of categories.
@@ -40,7 +42,7 @@ eruptions_table = table(eruptions_cut)
 barplot(eruptions_table, main='Eruptions')
 ```
 
-![img]()
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/absfreq_bar.png?raw=true)
 
 - Histogram (bar plot) of the relative frequency
 
@@ -54,7 +56,7 @@ relfreq = eruptions_table / nrow(mydata)
 barplot(relfreq, main='Eruptions')
 ```
 
-![img]()
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/relfreq_bar.png?raw=true)
 
 ## Relative Frequency Distribution
 
@@ -77,7 +79,7 @@ barplot(relfreq, main='Eruptions')
 
 Cumulative frequency distribution of a quantitative variable is a summary of data frequency below given levels
 
-![img](2)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/2.png?raw=true)
 
 ```R
 # additional: cumulative absolute frequency
@@ -90,7 +92,7 @@ plot(cumabsfreq, main='Eruptions', xlab='Minutes', ylab='Cumulative Absolute Fre
 lines(cumabsfreq)
 ```
 
-![img]()
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/cumabsfreq.png?raw=true)
 
 ## Cumulative Relative Frequency Distribution
 
@@ -106,8 +108,6 @@ cumrelfreq = cumsum(relfreq)
 plot(cumrelfreq, main='Eruptions', xlab='Minutes', ylab='Cumulative Relative Frecuency')
 lines(cumrelfreq)
 ```
-
-![img]()
 
 - Option 2: use `hist()$counts` to get the frequency counts
 
@@ -125,3 +125,5 @@ cumfreq = cumsum(reldata)
 plot(cumfreq, main='Eruptions', xlab='Minutes', ylab='Cumulative Relative Frecuency')
 lines(cumfreq)
 ```
+
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/cumrelfreq.png?raw=true)

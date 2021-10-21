@@ -44,7 +44,11 @@ barplot(eruptions_table, main='Eruptions')
 
 ![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/absfreq_bar.png?raw=true)
 
-- Histogram (bar plot) of the relative frequency
+## Relative Frequency Distribution
+
+It is a summary of the frequency proportion in a collection of categories.
+
+![\Large x_{scaled}=\frac{x-min(x)}{max(x)-min(x)}](https://latex.codecogs.com/svg.latex?\Large&space;relfreq=\frac{count}{total}\times100)
 
 ```R
 # additional: relative frequency bar plot
@@ -57,23 +61,6 @@ barplot(relfreq, main='Eruptions')
 ```
 
 ![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/relfreq_bar.png?raw=true)
-
-## Relative Frequency Distribution
-
-It is a summary of the frequency proportion in a collection of categories.
-
-![\Large x_{scaled}=\frac{x-min(x)}{max(x)-min(x)}](https://latex.codecogs.com/svg.latex?\Large&space;relfreq=\frac{count}{total}\times100)
-
-```R
-eruptions = mydata$eruptions
-breaks4 = seq(1,6, by=0.1)
-eruptions_cut = cut(eruptions, breaks4, right=F)
-eruptions_table = table(eruptions_cut)
-relfreq = eruptions_table / nrow(mydata)
-barplot(relfreq, main='Eruptions')
-```
-
-![img]()
 
 ## Cumulative (Absolute) Frequency Distribution
 

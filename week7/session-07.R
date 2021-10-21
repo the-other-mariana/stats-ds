@@ -50,3 +50,9 @@ eruptions_cut = cut(eruptions, breaks4, right=F)
 eruptions_table = table(eruptions_cut)
 relfreq = eruptions_table / nrow(mydata)
 #barplot(relfreq, main='Eruptions')
+
+# pie chart 
+pie(eruptions_table)
+
+# stem and leaf 
+stem(eruptions)

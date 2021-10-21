@@ -114,3 +114,48 @@ lines(cumfreq)
 ```
 
 ![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/cumrelfreq.png?raw=true)
+
+## Pie Chart
+
+Consists of pizza wedges that shows the frequency distribution graphically.
+
+```R
+# pie chart 
+pie(eruptions_table)
+```
+
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/pie.png?raw=true)
+
+## Stem and Leaf Plot
+
+This plot helps us see not only the distribution shape of the data (overall sillouette), but also how each 'bar' is distributed inside.
+
+```R
+# stem and leaf 
+stem(eruptions)
+```
+
+```
+The decimal point is 1 digit(s) to the left of the |
+
+  16 | 070355555588
+  18 | 000022233333335577777777888822335777888
+  20 | 00002223378800035778
+  22 | 0002335578023578
+  24 | 00228
+  26 | 23
+  28 | 080
+  30 | 7
+  32 | 2337
+  34 | 250077
+  36 | 0000823577
+  38 | 2333335582225577
+  40 | 0000003357788888002233555577778
+  42 | 03335555778800233333555577778
+  44 | 02222335557780000000023333357778888
+  46 | 0000233357700000023578
+  48 | 00000022335800333
+  50 | 0370
+```
+
+Note: (key) 30 | 7 = 3.07

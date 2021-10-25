@@ -70,9 +70,9 @@ The stdev is also very sensible to differences with the mean, if we perform the 
 
 Take this two data set examples:
 
-![CV=\frac{\sigma}{\mu}](https://latex.codecogs.com/svg.latex?&space;CV_1=\frac{\sigma_1}{\mu_1}=\frac{10}{168}=0.059)
+![CV=\frac{\sigma}{\mu}](https://latex.codecogs.com/svg.latex?\Large&space;CV_1=\frac{\sigma_1}{\mu_1}=\frac{10}{168}=0.059)
 
-![CV=\frac{\sigma}{\mu}](https://latex.codecogs.com/svg.latex?&space;CV_2=\frac{\sigma_2}{\mu_2}=\frac{10}{17}=0.58)
+![CV=\frac{\sigma}{\mu}](https://latex.codecogs.com/svg.latex?\Large&space;CV_2=\frac{\sigma_2}{\mu_2}=\frac{10}{17}=0.58)
 
 We use this ratio called Variation Coefficient because the stdev cannot tell must about the real dispersion of the data (in both cases, the stdev is 10), and with this ratio we can tell how much of a mean is the standard deviation.
 
@@ -85,6 +85,8 @@ It is a ratio of how much the stdev is in percentage with respect to the mean va
 - For ML or classification problems, it is advised to have a dataset with a large dispersion/variation, so that the algorithm is trained for various types of data.
 
 ## Exercise
+
+Source: https://github.com/the-other-mariana/stats-ds/blob/master/week8/session-08.R
 
 ## Quantiles
 
@@ -181,5 +183,5 @@ where:
 
 If we calculate the median or Q2:
 
-![Q=L_i+\frac{P\times{N}-F_{i-1}}{f_i}\times{A}](https://latex.codecogs.com/svg.latex?&space;Q_2=L_i+\frac{P\times{N}-F_{i-1}}{f_i}\times{A}=20+\frac{0.5\times{510}-226}{54}\times{5}=22.68)
+![Q=L_i+\frac{P\times{N}-F_{i-1}}{f_i}\times{A}](https://latex.codecogs.com/svg.latex?\Large&space;Q_2=L_i+\frac{P\times{N}-F_{i-1}}{f_i}\times{A}=20+\frac{0.5\times{510}-226}{54}\times{5}=22.68)
 

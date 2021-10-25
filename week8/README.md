@@ -22,15 +22,15 @@ sum((x-mean(x))^2) / length(x) # option 2
 
 - The variance is the sum of the **distance** of each data point and the mean.
 
-![img](1)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/1.png?raw=true)
 
 In the image we can see that income column will have a larger variance because there is data that is accross a very wide-valued x axis (mean = 78 and the last data is 1120). In the age column, the variance will be smaller since the data in x axis looks not so spread out and the values in the axis itself are smaller.
 
-![img](2)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/2.png?raw=true)
 
 With this stem plot we can see that from 600 there are only 4 data values bigger than 600, so if we take those 4 out, the variance decreased from 12 612 to 5 591.
 
-![img](3)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/3.png?raw=true)
 
 If the variance is very high, we can have two possibilities: all data is very spread out (not a lot of repeated values), or there are a few atypically distant values that are increasing the variance. Either way, it tells you something about the distribution of the data.
 
@@ -58,7 +58,7 @@ By taking the square root, we are returning to the units in which the data is: t
 
 The number you get as stdev you can substract it from the mean (42) and say that **the mayority** of data is within the range [42 - stdev (12)] and [42 + stdev (12)], marked as the square in the image. We say **the mayority** instead of a percentage because the exact percentage depends on the distribution that the data has. For example, if it was a normal distribution we would say that the 68% of the data values are in the range of [42 - stdev (12)] and [42 + stdev (12)].
 
-![img](4)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/4.png?raw=true)
 
 The variance gives us an idea of dispersion but does not have a direct relationship with the data, while the sdtev is in the same units as the data values and therefore has a direct relationship with the data and gives us a more specific idea of dispersion.
 
@@ -102,7 +102,7 @@ Quantiles can either be quartiles, when we divide the data set in 4 parts; quint
 
 4. The **third quartile Q3**, or upper quartile, is the value that cuts off the first **75%** of the data.
 
-![img](5)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/5.png?raw=true)
 
 This is a way of actually visualizing the dispersion of the data.
 
@@ -131,11 +131,11 @@ IQR(x)
 
 ### Example
 
-![img](6)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/6.png?raw=true)
 
 *Note: if the middle point of any quartile falls into two data values, take the average of those two.*
 
-![img](7)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/7.png?raw=true)
 
 With the mean and the standard deviation we got an **approximation** of where the mayority of data was, but with quartiles we get the **exact** point where the 50% around the median (mayority of data) begins and ends: in the code example, we can say that between 32 (Q1) and 51 (Q3) values there is the 50% of all the data values.
 
@@ -177,7 +177,7 @@ where:
 
 - P = percentage we are calculating for quantile Q
 
-![img](8)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week8/res/8.png?raw=true)
 
 If we calculate the median or Q2:
 

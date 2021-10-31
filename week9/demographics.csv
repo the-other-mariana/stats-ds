@@ -1,0 +1,511 @@
+age,marital,income,educ,carpr,carcat,gender,retired
+55,Married,72,Did not complete high school,36.2,Luxury,Female,No
+56,Unmarried,153,Did not complete high school,76.9,Luxury,Male,No
+28,Married,28,Some college,13.7,Economy,Female,No
+24,Married,26,College degree,12.5,Economy,Male,No
+25,Unmarried,23,High school degree,11.3,Economy,Male,No
+45,Married,76,Some college,37.2,Luxury,Male,No
+42,Unmarried,40,Some college,19.8,Standard,Male,No
+35,Unmarried,57,High school degree,28.2,Standard,Female,No
+46,Unmarried,24,Did not complete high school,12.2,Economy,Female,No
+34,Married,89,Some college,46.1,Luxury,Male,No
+55,Married,72,Some college,35.5,Luxury,Female,No
+28,Unmarried,24,College degree,11.8,Economy,Male,No
+31,Married,40,College degree,21.3,Standard,Female,No
+42,Unmarried,137,Some college,68.9,Luxury,Female,No
+35,Unmarried,70,Some college,34.1,Luxury,Male,No
+52,Married,159,College degree,78.9,Luxury,Male,No
+21,Married,37,Some college,18.6,Standard,Male,No
+32,Unmarried,28,Did not complete high school,13.7,Economy,Female,No
+42,Unmarried,109,Some college,54.7,Luxury,Female,No
+40,Married,117,High school degree,58.3,Luxury,Female,No
+30,Unmarried,23,Did not complete high school,11.8,Economy,Male,No
+48,Unmarried,21,Some college,9.5,Economy,Male,No
+39,Married,17,College degree,8.5,Economy,Male,No
+42,Married,34,High school degree,16.6,Standard,Female,No
+45,Married,115,Did not complete high school,57.4,Luxury,Female,No
+51,Married,47,Did not complete high school,23,Standard,Male,No
+39,Married,33,Some college,16.3,Standard,Male,No
+49,Unmarried,135,High school degree,68.4,Luxury,Female,No
+52,Unmarried,272,Did not complete high school,74.9,Luxury,Male,No
+53,Married,41,Did not complete high school,19.9,Standard,Male,No
+34,Unmarried,20,Some college,10,Economy,Female,No
+47,Married,22,Some college,11.4,Economy,Male,No
+58,Unmarried,60,College degree,29.7,Standard,Male,No
+25,Married,58,Some college,28.4,Standard,Female,No
+57,Married,92,High school degree,45.5,Luxury,Female,No
+30,Married,21,College degree,10.5,Economy,Male,No
+21,Unmarried,13,Some college,6.3,Economy,Female,No
+24,Unmarried,24,High school degree,11.8,Economy,Female,No
+56,Unmarried,213,College degree,81.7,Luxury,Female,No
+24,Unmarried,19,High school degree,9.6,Economy,Male,No
+41,Unmarried,59,Some college,28.6,Standard,Male,No
+57,Married,544,High school degree,82.8,Luxury,Female,No
+32,Unmarried,32,High school degree,15.7,Standard,Male,No
+24,Unmarried,35,College degree,17.4,Standard,Male,No
+49,Married,35,Did not complete high school,17.3,Standard,Male,No
+21,Unmarried,22,Some college,11,Economy,Female,No
+33,Married,39,High school degree,19.4,Standard,Female,No
+56,Unmarried,134,High school degree,67.2,Luxury,Male,No
+54,Married,103,Did not complete high school,51.2,Luxury,Male,No
+44,Married,240,College degree,75.2,Luxury,Female,No
+20,Unmarried,20,High school degree,9.5,Economy,Male,No
+47,Unmarried,118,High school degree,59.8,Luxury,Male,No
+48,Unmarried,78,College degree,38,Luxury,Female,No
+25,Unmarried,68,College degree,33.5,Luxury,Female,No
+52,Unmarried,27,Did not complete high school,13.4,Economy,Male,No
+38,Married,19,Did not complete high school,9.2,Economy,Female,No
+65,Married,20,High school degree,10.1,Economy,Male,Yes
+28,Married,31,Some college,15.6,Standard,Male,No
+51,Married,51,High school degree,25.5,Standard,Male,No
+61,Married,84,High school degree,41.5,Luxury,Male,No
+46,Married,133,Post-undergraduate degree,66.6,Luxury,Male,No
+43,Married,109,High school degree,54.6,Luxury,Female,No
+28,Unmarried,24,Some college,12.5,Economy,Male,No
+39,Unmarried,57,Some college,28.6,Standard,Female,No
+37,Unmarried,24,Some college,11.3,Economy,Male,No
+59,Married,32,High school degree,15.9,Standard,Male,No
+55,Unmarried,65,College degree,31.5,Luxury,Female,No
+51,Married,70,Some college,35.6,Luxury,Male,No
+48,Married,321,Post-undergraduate degree,65.9,Luxury,Male,No
+40,Unmarried,71,Some college,35.1,Luxury,Male,No
+28,Unmarried,35,Some college,17.3,Standard,Female,No
+39,Married,85,High school degree,44,Luxury,Male,No
+30,Married,20,Some college,9.7,Economy,Female,No
+40,Married,33,Some college,16.4,Standard,Female,No
+55,Unmarried,35,College degree,17.2,Standard,Female,No
+48,Married,50,High school degree,25.2,Standard,Female,No
+48,Married,1116,College degree,74.1,Luxury,Male,No
+49,Married,89,High school degree,44.7,Luxury,Female,No
+56,Unmarried,376,Did not complete high school,64.9,Luxury,Female,No
+44,Unmarried,54,Did not complete high school,27.3,Standard,Male,No
+43,Unmarried,68,High school degree,32.9,Luxury,Male,No
+61,Married,117,College degree,60.4,Luxury,Female,No
+37,Unmarried,29,Post-undergraduate degree,14.5,Economy,Male,No
+29,Married,25,High school degree,12.5,Economy,Male,No
+30,Married,27,Did not complete high school,13.1,Economy,Female,No
+48,Unmarried,129,Some college,65.5,Luxury,Male,No
+51,Married,140,Did not complete high school,70.6,Luxury,Male,No
+40,Married,57,College degree,29.5,Standard,Male,No
+66,Married,30,Did not complete high school,15.5,Standard,Female,No
+61,Married,23,High school degree,11.3,Economy,Male,Yes
+61,Married,64,Some college,32,Luxury,Female,No
+32,Married,26,Some college,12.2,Economy,Male,No
+25,Unmarried,27,High school degree,13.4,Economy,Male,No
+47,Unmarried,28,Some college,13.7,Economy,Male,No
+59,Married,209,High school degree,76.8,Luxury,Female,No
+25,Married,27,High school degree,13.8,Economy,Female,No
+63,Married,478,Did not complete high school,73,Luxury,Male,No
+41,Unmarried,49,College degree,23.9,Standard,Male,No
+66,Unmarried,30,High school degree,14.3,Economy,Male,No
+20,Unmarried,36,Some college,17.5,Standard,Male,No
+47,Married,62,Some college,31.2,Luxury,Male,No
+42,Unmarried,49,Did not complete high school,24.5,Standard,Female,No
+35,Married,49,College degree,24.3,Standard,Female,No
+24,Unmarried,23,College degree,11.9,Economy,Male,No
+22,Unmarried,23,College degree,11.5,Economy,Female,No
+32,Married,59,Post-undergraduate degree,29.8,Standard,Male,No
+50,Married,58,Did not complete high school,29.2,Standard,Male,No
+44,Married,46,Did not complete high school,23.2,Standard,Male,No
+32,Unmarried,31,College degree,15.4,Standard,Male,No
+65,Unmarried,40,Did not complete high school,20.9,Standard,Female,No
+47,Married,181,High school degree,90.4,Luxury,Female,No
+42,Unmarried,53,College degree,25.4,Standard,Female,No
+48,Unmarried,144,High school degree,72.7,Luxury,Female,No
+29,Unmarried,22,College degree,10.9,Economy,Male,No
+36,Unmarried,43,High school degree,20.2,Standard,Male,No
+34,Unmarried,23,High school degree,11.4,Economy,Female,No
+41,Unmarried,68,College degree,34.3,Luxury,Female,No
+26,Unmarried,41,High school degree,20.9,Standard,Male,No
+25,Unmarried,23,College degree,11.5,Economy,Male,No
+53,Unmarried,145,High school degree,70.9,Luxury,Male,No
+32,Married,33,High school degree,16.8,Standard,Female,No
+46,Unmarried,83,High school degree,40.5,Luxury,Female,No
+44,Married,39,Did not complete high school,19.2,Standard,Female,No
+39,Unmarried,42,College degree,20.6,Standard,Female,No
+39,Married,43,Did not complete high school,22.3,Standard,Female,No
+40,Unmarried,38,College degree,18.9,Standard,Female,No
+25,Unmarried,59,College degree,28.4,Standard,Female,No
+29,Married,57,High school degree,28.7,Standard,Male,No
+23,Unmarried,24,College degree,11.8,Economy,Male,No
+48,Unmarried,45,Did not complete high school,22.7,Standard,Male,No
+24,Unmarried,22,High school degree,10.6,Economy,Male,No
+59,Unmarried,30,Some college,14.5,Economy,Male,No
+31,Married,30,High school degree,15.1,Standard,Female,No
+70,Unmarried,21,High school degree,10.3,Economy,Female,Yes
+37,Unmarried,51,College degree,24.7,Standard,Male,No
+59,Married,43,Some college,21,Standard,Female,No
+38,Unmarried,30,College degree,15.2,Standard,Female,No
+56,Unmarried,37,Some college,18.1,Standard,Male,No
+48,Married,23,Did not complete high school,11.4,Economy,Female,No
+28,Married,16,College degree,7.9,Economy,Male,No
+20,Married,19,High school degree,9.6,Economy,Male,No
+68,Unmarried,22,High school degree,10.7,Economy,Male,Yes
+26,Unmarried,38,College degree,18.6,Standard,Male,No
+29,Married,74,College degree,37.3,Luxury,Female,No
+23,Married,13,High school degree,6.4,Economy,Male,No
+61,Unmarried,41,Some college,20.2,Standard,Male,Yes
+39,Unmarried,48,Did not complete high school,25.6,Standard,Female,No
+47,Married,176,College degree,88.9,Luxury,Female,No
+36,Unmarried,40,College degree,20.4,Standard,Male,No
+61,Unmarried,837,High school degree,73.4,Luxury,Male,No
+32,Married,71,College degree,35.4,Luxury,Male,No
+28,Married,30,College degree,14.4,Economy,Male,No
+66,Married,42,High school degree,19.9,Standard,Female,No
+35,Married,51,Did not complete high school,25.4,Standard,Male,No
+55,Married,352,College degree,67.7,Luxury,Male,No
+47,Unmarried,122,College degree,60.4,Luxury,Female,No
+34,Married,38,Some college,19.6,Standard,Male,No
+29,Unmarried,67,High school degree,34.2,Luxury,Male,No
+36,Unmarried,31,Some college,15.6,Standard,Male,No
+38,Married,51,Some college,25.9,Standard,Male,No
+33,Married,35,College degree,17.3,Standard,Male,No
+46,Married,88,High school degree,42.7,Luxury,Female,No
+29,Unmarried,60,College degree,30.4,Luxury,Female,No
+38,Married,53,Some college,25,Standard,Female,No
+38,Unmarried,42,High school degree,20.5,Standard,Male,No
+39,Married,29,Did not complete high school,14.3,Economy,Female,No
+34,Married,62,Post-undergraduate degree,31,Luxury,Male,No
+58,Married,46,High school degree,22.2,Standard,Male,No
+29,Unmarried,31,Did not complete high school,15.4,Standard,Female,No
+64,Unmarried,16,College degree,8.1,Economy,Male,Yes
+41,Unmarried,36,Some college,18.2,Standard,Male,No
+44,Unmarried,25,Did not complete high school,11.9,Economy,Female,No
+60,Married,82,Did not complete high school,40.3,Luxury,Female,No
+32,Unmarried,25,College degree,12.7,Economy,Female,No
+35,Unmarried,37,Some college,18.6,Standard,Male,No
+58,Married,19,High school degree,9.6,Economy,Male,No
+37,Unmarried,30,High school degree,15,Standard,Female,No
+63,Married,208,High school degree,83.1,Luxury,Female,No
+22,Married,25,Some college,12.1,Economy,Female,No
+66,Married,72,High school degree,34.8,Luxury,Female,No
+26,Unmarried,19,Did not complete high school,9.4,Economy,Male,No
+44,Unmarried,104,High school degree,51,Luxury,Female,No
+41,Unmarried,25,High school degree,12.4,Economy,Female,No
+26,Married,15,Did not complete high school,7.6,Economy,Male,No
+48,Unmarried,371,College degree,74.6,Luxury,Female,No
+45,Unmarried,135,Did not complete high school,67.6,Luxury,Female,No
+26,Married,50,High school degree,25.3,Standard,Male,No
+31,Unmarried,22,Did not complete high school,11.2,Economy,Female,No
+54,Married,354,High school degree,70.7,Luxury,Male,No
+34,Married,38,College degree,18.3,Standard,Male,No
+32,Married,45,Did not complete high school,22.1,Standard,Male,No
+35,Unmarried,32,High school degree,15.7,Standard,Female,No
+22,Married,32,High school degree,16.2,Standard,Male,No
+25,Unmarried,30,Some college,14.6,Economy,Male,No
+59,Married,103,High school degree,51.2,Luxury,Female,No
+28,Married,15,Post-undergraduate degree,7.5,Economy,Female,No
+37,Married,52,High school degree,25.4,Standard,Female,No
+43,Unmarried,29,Did not complete high school,14,Economy,Male,No
+42,Married,69,High school degree,34.1,Luxury,Female,No
+35,Unmarried,38,High school degree,19,Standard,Female,No
+22,Unmarried,32,Did not complete high school,15.7,Standard,Male,No
+55,Unmarried,298,College degree,80.5,Luxury,Male,No
+63,Unmarried,11,Did not complete high school,5.6,Economy,Male,Yes
+40,Married,61,Some college,31.7,Luxury,Male,No
+29,Unmarried,59,Did not complete high school,29.4,Standard,Male,No
+32,Married,52,Did not complete high school,25.6,Standard,Female,No
+47,Unmarried,138,College degree,69.2,Luxury,Male,No
+42,Unmarried,28,Some college,13.9,Economy,Female,No
+50,Unmarried,23,Did not complete high school,11.7,Economy,Female,No
+52,Married,34,Some college,16.9,Standard,Female,No
+33,Married,26,Did not complete high school,13.1,Economy,Female,No
+54,Unmarried,286,College degree,73.6,Luxury,Male,No
+37,Married,32,Did not complete high school,15.9,Standard,Female,No
+57,Married,307,College degree,73.5,Luxury,Female,No
+70,Married,11,High school degree,5.5,Economy,Male,Yes
+23,Married,14,College degree,6.9,Economy,Female,No
+55,Unmarried,196,Some college,98.2,Luxury,Female,No
+48,Unmarried,81,High school degree,41.1,Luxury,Male,No
+38,Unmarried,40,High school degree,20.1,Standard,Male,No
+47,Married,65,Did not complete high school,32.5,Luxury,Male,No
+29,Unmarried,21,College degree,10.5,Economy,Male,No
+27,Married,26,Some college,13.1,Economy,Male,No
+29,Married,40,Some college,19.8,Standard,Female,No
+28,Unmarried,26,Did not complete high school,12.6,Economy,Male,No
+47,Married,55,Some college,27.2,Standard,Female,No
+45,Married,22,Some college,11.1,Economy,Female,No
+24,Unmarried,19,Some college,9.6,Economy,Male,No
+41,Married,204,High school degree,67.9,Luxury,Female,No
+18,Unmarried,13,High school degree,6.6,Economy,Male,No
+42,Unmarried,140,Some college,69.9,Luxury,Female,No
+45,Married,46,College degree,23.1,Standard,Male,No
+34,Married,40,Post-undergraduate degree,19.8,Standard,Female,No
+38,Married,105,Some college,53.5,Luxury,Female,No
+36,Unmarried,137,College degree,67.5,Luxury,Male,No
+19,Married,16,High school degree,7.9,Economy,Female,No
+28,Unmarried,24,Did not complete high school,11.9,Economy,Female,No
+41,Married,32,High school degree,15.7,Standard,Male,No
+54,Unmarried,47,College degree,23.9,Standard,Female,No
+42,Unmarried,207,Some college,70.5,Luxury,Female,No
+47,Married,118,College degree,58.9,Luxury,Male,No
+61,Unmarried,288,College degree,70.9,Luxury,Female,No
+66,Married,13,Did not complete high school,6.5,Economy,Male,Yes
+51,Married,73,Some college,36.7,Luxury,Male,No
+55,Unmarried,33,Did not complete high school,16.6,Standard,Female,No
+36,Married,28,Some college,13.3,Economy,Male,No
+39,Married,63,Some college,30.7,Luxury,Male,No
+38,Unmarried,30,College degree,14.5,Economy,Male,No
+44,Married,89,Some college,44.3,Luxury,Female,No
+52,Married,78,Did not complete high school,38.7,Luxury,Female,No
+55,Unmarried,1045,Post-undergraduate degree,70.9,Luxury,Female,No
+58,Married,97,Did not complete high school,49.1,Luxury,Male,No
+61,Unmarried,119,High school degree,58.7,Luxury,Male,No
+64,Unmarried,10,Did not complete high school,4.9,Economy,Female,Yes
+45,Married,242,Some college,76.1,Luxury,Female,No
+66,Unmarried,333,Did not complete high school,63.2,Luxury,Male,No
+31,Unmarried,29,High school degree,15.2,Standard,Female,No
+31,Unmarried,26,High school degree,12.6,Economy,Male,No
+36,Married,56,College degree,29.4,Standard,Male,No
+20,Unmarried,21,Some college,10.6,Economy,Female,No
+40,Married,35,Some college,17.3,Standard,Female,No
+38,Married,40,High school degree,19.3,Standard,Male,No
+51,Unmarried,89,High school degree,43,Luxury,Male,No
+47,Unmarried,36,Did not complete high school,18.3,Standard,Female,No
+31,Married,32,Some college,15.4,Standard,Female,No
+34,Unmarried,44,College degree,22.1,Standard,Female,No
+35,Married,41,High school degree,20.2,Standard,Male,No
+66,Unmarried,45,Did not complete high school,23.7,Standard,Male,No
+63,Unmarried,118,Did not complete high school,60.2,Luxury,Female,No
+34,Married,102,College degree,51,Luxury,Female,No
+37,Married,31,Some college,15.4,Standard,Female,No
+34,Married,37,Did not complete high school,18.4,Standard,Male,No
+36,Married,109,College degree,56,Luxury,Male,No
+42,Unmarried,42,College degree,21.6,Standard,Male,No
+63,Unmarried,143,Did not complete high school,72.2,Luxury,Female,No
+30,Married,50,College degree,24.1,Standard,Female,No
+58,Married,280,Did not complete high school,68.5,Luxury,Female,No
+36,Unmarried,37,High school degree,18.7,Standard,Female,No
+53,Married,393,Some college,75,Luxury,Female,No
+43,Unmarried,86,College degree,43.2,Luxury,Female,No
+33,Unmarried,24,College degree,12,Economy,Female,No
+37,Married,88,College degree,43.3,Luxury,Female,No
+43,Married,66,Some college,33.7,Luxury,Female,No
+45,Unmarried,196,Some college,96.3,Luxury,Female,No
+37,Unmarried,27,Some college,13.8,Economy,Female,No
+19,Unmarried,15,High school degree,7.4,Economy,Male,No
+55,Unmarried,66,High school degree,33.1,Luxury,Male,No
+40,Unmarried,94,High school degree,47.8,Luxury,Male,No
+61,Unmarried,11,Some college,5.2,Economy,Female,Yes
+25,Married,20,Did not complete high school,9.6,Economy,Female,No
+35,Unmarried,116,Post-undergraduate degree,58.6,Luxury,Male,No
+60,Unmarried,43,Did not complete high school,21.4,Standard,Male,No
+37,Unmarried,54,Post-undergraduate degree,26.4,Standard,Male,No
+38,Unmarried,76,Some college,37.1,Luxury,Female,No
+46,Unmarried,36,High school degree,18,Standard,Female,No
+43,Unmarried,56,College degree,28.4,Standard,Male,No
+40,Married,50,College degree,24,Standard,Male,No
+34,Unmarried,22,Some college,11,Economy,Female,No
+40,Married,33,Post-undergraduate degree,16.7,Standard,Male,No
+44,Married,41,Post-undergraduate degree,20,Standard,Female,No
+28,Married,41,High school degree,21.5,Standard,Male,No
+47,Married,65,College degree,31.9,Luxury,Male,No
+23,Married,25,Some college,12.3,Economy,Male,No
+51,Married,33,High school degree,16.3,Standard,Male,No
+39,Married,23,Did not complete high school,11.8,Economy,Male,No
+54,Married,61,Did not complete high school,30.1,Luxury,Female,No
+54,Unmarried,314,Some college,76.2,Luxury,Female,No
+28,Unmarried,42,High school degree,20.8,Standard,Male,No
+26,Married,26,Post-undergraduate degree,12.9,Economy,Female,No
+42,Married,58,Post-undergraduate degree,28.9,Standard,Female,No
+44,Married,40,Did not complete high school,19.3,Standard,Female,No
+41,Married,43,Some college,20,Standard,Female,No
+40,Married,33,Did not complete high school,16.5,Standard,Male,No
+39,Married,52,High school degree,26.7,Standard,Female,No
+35,Unmarried,57,Some college,27.5,Standard,Male,No
+45,Married,143,Some college,70.7,Luxury,Female,No
+48,Married,56,College degree,27.8,Standard,Female,No
+71,Unmarried,69,Did not complete high school,34.8,Luxury,Female,No
+31,Unmarried,34,High school degree,17.2,Standard,Male,No
+50,Married,346,Post-undergraduate degree,78,Luxury,Male,No
+55,Unmarried,167,Post-undergraduate degree,83.2,Luxury,Male,No
+32,Married,27,High school degree,12.8,Economy,Male,No
+51,Unmarried,126,High school degree,62.6,Luxury,Female,No
+52,Unmarried,46,High school degree,23.4,Standard,Male,No
+46,Unmarried,33,Some college,15.9,Standard,Female,No
+49,Unmarried,349,Some college,77.8,Luxury,Male,No
+48,Unmarried,40,Did not complete high school,19.4,Standard,Male,No
+23,Unmarried,20,College degree,10.5,Economy,Female,No
+52,Married,73,Did not complete high school,37.1,Luxury,Female,No
+50,Unmarried,66,Some college,33.9,Luxury,Male,No
+60,Married,102,High school degree,49.8,Luxury,Female,No
+21,Unmarried,14,High school degree,7,Economy,Male,No
+36,Married,45,Post-undergraduate degree,21.9,Standard,Male,No
+49,Unmarried,50,Did not complete high school,25.9,Standard,Male,No
+48,Married,123,College degree,60.9,Luxury,Male,No
+25,Unmarried,64,Some college,32.4,Luxury,Female,No
+35,Married,28,High school degree,13.5,Economy,Female,No
+49,Unmarried,102,Post-undergraduate degree,51.6,Luxury,Female,No
+47,Married,107,College degree,53.6,Luxury,Male,No
+27,Unmarried,26,High school degree,12.9,Economy,Female,No
+34,Married,24,High school degree,11.9,Economy,Female,No
+36,Married,30,Did not complete high school,15.2,Standard,Female,No
+50,Married,37,Did not complete high school,18.3,Standard,Male,No
+29,Unmarried,28,Post-undergraduate degree,13.5,Economy,Female,No
+33,Married,21,Did not complete high school,10.5,Economy,Male,No
+42,Unmarried,26,Did not complete high school,13.1,Economy,Male,No
+33,Married,23,Did not complete high school,11.9,Economy,Male,No
+30,Married,32,Some college,16,Standard,Male,No
+51,Unmarried,146,Did not complete high school,73.9,Luxury,Male,No
+27,Unmarried,28,Some college,14,Economy,Male,No
+29,Unmarried,16,Some college,8.1,Economy,Male,No
+32,Unmarried,37,College degree,18.9,Standard,Male,No
+44,Married,31,Did not complete high school,15.3,Standard,Male,No
+34,Married,112,College degree,56.9,Luxury,Male,No
+20,Married,32,Some college,16.2,Standard,Female,No
+49,Unmarried,78,Did not complete high school,39.6,Luxury,Male,No
+34,Unmarried,100,College degree,50,Luxury,Female,No
+34,Married,30,High school degree,14.9,Economy,Male,No
+31,Unmarried,51,High school degree,24.7,Standard,Female,No
+39,Married,238,College degree,73.6,Luxury,Female,No
+33,Married,42,College degree,20.8,Standard,Male,No
+54,Married,69,Did not complete high school,35.2,Luxury,Female,No
+31,Unmarried,60,College degree,29.3,Standard,Female,No
+34,Unmarried,71,Did not complete high school,35.3,Luxury,Female,No
+29,Married,28,College degree,14.3,Economy,Female,No
+24,Unmarried,15,Did not complete high school,7.2,Economy,Male,No
+49,Married,154,High school degree,76.1,Luxury,Female,No
+19,Married,14,Did not complete high school,7.1,Economy,Female,No
+49,Unmarried,35,Did not complete high school,17.7,Standard,Female,No
+40,Unmarried,50,College degree,24.8,Standard,Male,No
+28,Unmarried,74,Post-undergraduate degree,37.4,Luxury,Female,No
+36,Married,130,Some college,63.8,Luxury,Female,No
+46,Unmarried,46,College degree,22.8,Standard,Male,No
+24,Married,25,Some college,12.6,Economy,Female,No
+38,Married,78,Some college,39,Luxury,Male,No
+31,Unmarried,28,Some college,13.9,Economy,Male,No
+37,Unmarried,58,High school degree,29.4,Standard,Male,No
+58,Unmarried,17,Post-undergraduate degree,8.4,Economy,Male,Yes
+37,Unmarried,31,Post-undergraduate degree,15.4,Standard,Female,No
+73,Unmarried,11,Did not complete high school,5.3,Economy,Male,Yes
+44,Unmarried,27,High school degree,13.3,Economy,Female,No
+66,Unmarried,68,High school degree,34.7,Luxury,Female,No
+50,Unmarried,70,High school degree,34.6,Luxury,Female,No
+30,Unmarried,25,College degree,12.6,Economy,Male,No
+41,Unmarried,28,Some college,13.6,Economy,Female,No
+57,Unmarried,143,Did not complete high school,72,Luxury,Male,No
+71,Unmarried,147,College degree,74.2,Luxury,Male,Yes
+53,Married,81,High school degree,39.5,Luxury,Male,No
+38,Unmarried,56,High school degree,27.1,Standard,Female,No
+46,Unmarried,114,College degree,57.1,Luxury,Male,No
+61,Unmarried,29,High school degree,14.8,Economy,Female,No
+48,Married,28,Did not complete high school,13.8,Economy,Female,No
+35,Married,19,Post-undergraduate degree,9.3,Economy,Female,No
+55,Married,345,College degree,77.6,Luxury,Female,No
+51,Unmarried,143,High school degree,72.7,Luxury,Male,No
+45,Unmarried,61,High school degree,30.8,Luxury,Female,No
+50,Married,86,Some college,42.1,Luxury,Male,No
+36,Unmarried,49,Did not complete high school,24.3,Standard,Female,No
+44,Married,49,Did not complete high school,24.4,Standard,Female,No
+38,Unmarried,25,High school degree,12.5,Economy,Male,No
+50,Unmarried,61,College degree,30.7,Luxury,Female,No
+37,Unmarried,57,High school degree,28,Standard,Male,No
+48,Unmarried,201,College degree,73.7,Luxury,Female,No
+46,Married,35,Did not complete high school,17.7,Standard,Male,No
+51,Unmarried,51,Some college,26.1,Standard,Male,No
+22,Married,21,College degree,10.7,Economy,Female,No
+72,Unmarried,17,Did not complete high school,8.5,Economy,Male,Yes
+61,Unmarried,23,Some college,11.7,Economy,Female,Yes
+40,Married,29,Some college,14.2,Economy,Male,No
+49,Unmarried,39,Did not complete high school,20,Standard,Male,No
+43,Married,91,High school degree,46.5,Luxury,Male,No
+26,Unmarried,31,Did not complete high school,15.7,Standard,Female,No
+41,Married,152,Did not complete high school,75.7,Luxury,Female,No
+44,Married,40,Did not complete high school,19.5,Standard,Male,No
+27,Unmarried,102,College degree,49.2,Luxury,Male,No
+48,Unmarried,98,College degree,48.6,Luxury,Female,No
+44,Married,39,Some college,19.7,Standard,Female,No
+53,Unmarried,254,College degree,79.4,Luxury,Female,No
+41,Unmarried,71,College degree,34.6,Luxury,Female,No
+63,Unmarried,118,High school degree,58.1,Luxury,Male,Yes
+29,Married,42,Did not complete high school,19.8,Standard,Male,No
+39,Unmarried,81,High school degree,39.8,Luxury,Female,No
+39,Married,26,Some college,13.1,Economy,Female,No
+36,Unmarried,87,College degree,43.8,Luxury,Male,No
+28,Married,68,Did not complete high school,34.2,Luxury,Male,No
+54,Unmarried,130,Did not complete high school,65.6,Luxury,Male,No
+36,Married,78,High school degree,39.1,Luxury,Female,No
+57,Unmarried,1070,Some college,79.6,Luxury,Female,No
+41,Unmarried,42,Did not complete high school,21.5,Standard,Male,No
+31,Married,45,Some college,22.1,Standard,Male,No
+39,Married,93,College degree,46.4,Luxury,Female,No
+54,Unmarried,151,College degree,77.5,Luxury,Male,No
+49,Unmarried,104,Some college,50.4,Luxury,Female,No
+54,Married,120,Did not complete high school,60.1,Luxury,Male,No
+36,Married,33,Some college,16.3,Standard,Female,No
+53,Married,111,College degree,54.6,Luxury,Male,No
+60,Married,9,Some college,4.4,Economy,Male,Yes
+29,Married,29,Did not complete high school,14.5,Economy,Female,No
+50,Married,24,Did not complete high school,12.4,Economy,Female,No
+62,Married,50,High school degree,23.6,Standard,Male,No
+44,Unmarried,100,Did not complete high school,48.7,Luxury,Male,No
+65,Married,235,Did not complete high school,77.1,Luxury,Female,No
+56,Unmarried,210,Did not complete high school,75.8,Luxury,Female,No
+32,Married,40,College degree,20.5,Standard,Female,No
+40,Unmarried,86,College degree,42.2,Luxury,Male,No
+20,Married,19,High school degree,9.5,Economy,Female,No
+59,Married,16,High school degree,8.1,Economy,Male,Yes
+58,Unmarried,10,High school degree,5,Economy,Male,Yes
+37,Married,75,Post-undergraduate degree,38.1,Luxury,Female,No
+52,Unmarried,123,High school degree,60.8,Luxury,Female,No
+29,Married,43,High school degree,22.2,Standard,Male,No
+48,Married,27,High school degree,13.1,Economy,Male,No
+25,Unmarried,21,Did not complete high school,10.8,Economy,Female,No
+35,Unmarried,152,College degree,75.2,Luxury,Male,No
+28,Married,91,Post-undergraduate degree,46.3,Luxury,Female,No
+42,Married,61,Post-undergraduate degree,30.3,Luxury,Male,No
+53,Married,117,Did not complete high school,58.5,Luxury,Male,No
+67,Married,10,Did not complete high school,5,Economy,Male,Yes
+31,Married,95,Some college,47,Luxury,Female,No
+43,Unmarried,67,Did not complete high school,33.2,Luxury,Male,No
+60,Married,60,High school degree,29.3,Standard,Male,No
+41,Unmarried,198,College degree,98.6,Luxury,Male,No
+62,Married,63,College degree,31.6,Luxury,Male,No
+37,Unmarried,28,Did not complete high school,13.9,Economy,Female,No
+37,Unmarried,46,College degree,24.1,Standard,Female,No
+19,Married,20,High school degree,10.3,Economy,Female,No
+63,Married,69,Did not complete high school,34.4,Luxury,Male,No
+41,Unmarried,69,Some college,34.5,Luxury,Female,No
+59,Married,57,Did not complete high school,29.3,Standard,Female,No
+70,Unmarried,9,High school degree,4.6,Economy,Male,Yes
+44,Married,48,Some college,23.2,Standard,Male,No
+53,Unmarried,129,Did not complete high school,64.7,Luxury,Female,No
+37,Married,40,Did not complete high school,19.6,Standard,Female,No
+64,Married,15,High school degree,7.4,Economy,Female,Yes
+56,Married,86,Did not complete high school,42.5,Luxury,Male,No
+31,Married,42,Did not complete high school,20.6,Standard,Male,No
+29,Married,29,Some college,14.3,Economy,Male,No
+51,Married,77,Some college,38.5,Luxury,Female,No
+25,Married,22,Did not complete high school,11.2,Economy,Female,No
+44,Married,139,College degree,70.3,Luxury,Male,No
+35,Unmarried,35,High school degree,17.4,Standard,Female,No
+29,Unmarried,30,Some college,14.9,Economy,Male,No
+60,Married,114,College degree,57.2,Luxury,Male,No
+49,Married,38,College degree,18.7,Standard,Female,No
+21,Unmarried,28,Some college,13.6,Economy,Male,No
+63,Unmarried,11,High school degree,5.4,Economy,Female,Yes
+20,Unmarried,18,Some college,9.1,Economy,Male,No
+33,Unmarried,36,Did not complete high school,17.3,Standard,Female,No
+61,Unmarried,24,Did not complete high school,11.8,Economy,Male,No
+53,Married,34,Some college,16.5,Standard,Female,No
+35,Unmarried,47,Some college,23.9,Standard,Male,No
+46,Unmarried,49,Did not complete high school,23.9,Standard,Female,No
+23,Unmarried,19,Did not complete high school,9.3,Economy,Female,No
+47,Unmarried,57,High school degree,29.5,Standard,Female,No
+49,Married,86,High school degree,43.3,Luxury,Female,No
+43,Unmarried,101,College degree,49.4,Luxury,Female,No
+64,Unmarried,11,College degree,5.6,Economy,Female,Yes
+53,Married,227,High school degree,76.3,Luxury,Male,No
+32,Married,18,High school degree,9,Economy,Female,No
+28,Married,43,College degree,21,Standard,Female,No
+25,Married,26,College degree,12.9,Economy,Female,No
+31,Married,25,Post-undergraduate degree,12.4,Economy,Male,No
+46,Unmarried,77,Some college,37.6,Luxury,Female,No
+34,Married,31,Did not complete high school,15.8,Standard,Female,No
+26,Married,23,Did not complete high school,11.7,Economy,Female,No
+42,Married,41,Did not complete high school,21.2,Standard,Male,No
+58,Married,496,Some college,78.6,Luxury,Female,No
+55,Unmarried,89,College degree,43.8,Luxury,Male,No
+63,Married,91,High school degree,45,Luxury,Female,No
+59,Married,141,Did not complete high school,70,Luxury,Male,No
+43,Married,54,High school degree,27,Standard,Male,No

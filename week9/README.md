@@ -2,7 +2,7 @@
 
 ## Normal Distribution
 
-![img](1)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/1.png?raw=true)
 
 The Central Limit theorem states that when a phenomenon/experiment happens around infinite times, the distribution (bar plot of the frecuency of occurence values in a series of values) of the outcomes of such event reaches the shape of a **Normal Distribution**, not to be confused with Standard Normal Distribution. Normal Distribution means that the mayority of data (68%) is concentrated around the mean, leaving the rest in the sides. 
 
@@ -12,7 +12,7 @@ The Central Limit theorem states that when a phenomenon/experiment happens aroun
 
 Skewness is when our data, instead of being **symmetrically centered** around the mean, it has the mayority of data values concentrated in either the right side or the left side of the x axis.
 
-![img](2)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/2.png?raw=true)
 
 - If the mayority of data values is concentrated to the left side, we say we have a **Positive Skew**. 
 
@@ -51,7 +51,7 @@ Thus, if we compare the three CTM: mean, median and mode, **we can conclude whic
 6-10
 ```
 
-![img](3)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/3.png?raw=true)
 
 We have mode = 6-10, say 8, and a mean = 36.75, thus we have a Positive Skew: mode < median < mean.
 
@@ -68,7 +68,7 @@ We have mode = 6-10, say 8, and a mean = 36.75, thus we have a Positive Skew: mo
 51-55
 ```
 
-![img](4)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/4.png?raw=true)
 
 We have a mode around 53, a mean = 48 and median = 51. They are pretty close, so we can say **No Skew**: mode = median = mean.
 
@@ -85,7 +85,7 @@ We have a mode around 53, a mean = 48 and median = 51. They are pretty close, so
 81-85
 ```
 
-![img](5)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/5.png?raw=true)
 
 We have a mode around 83, a mean = 58 and median = 63. We can say **Negative Skew**: mean < median < mode.
 
@@ -173,7 +173,7 @@ The R language's function `kurtosis()` outputs the kurtosis - 3, or the excess o
 | k<3 | gamma_2<0 | Platykurtic / thin-tailed (short tail) |
 | k>3 | gamma_2>0 | Leptokurtic / fat-tailed (large tail) |
 
-![img](6)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/6.png?raw=true)
 
 If you have large tails, that means that you have more values in the tails, and thus it is more probable that a value falls in a tail instead of the central body of the distribution.
 
@@ -181,7 +181,7 @@ If you have large tails, that means that you have more values in the tails, and 
 
 - Leptokurtic (large tails)
 
-![img](7)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/7.png?raw=true)
 
 K > 3 and gamma_2 > 0 (leptokurtic/fat-tails): lots of data in tails.
 
@@ -194,7 +194,7 @@ K > 3 and gamma_2 > 0 (leptokurtic/fat-tails): lots of data in tails.
 
 - Mesokurtic
 
-![img](8)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/8.png?raw=true)
 
 K == 3 and gamma_2 == 0 (mesokurtic): normal distribution.
 
@@ -207,7 +207,7 @@ K == 3 and gamma_2 == 0 (mesokurtic): normal distribution.
 
 - Platykurtic
 
-![img](9)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/9.png?raw=true)
 
 K < 3 and gamma_2 < 0 (platykurtic/fat-tails): few data in tails, short tails.
 
@@ -218,7 +218,7 @@ K < 3 and gamma_2 < 0 (platykurtic/fat-tails): few data in tails, short tails.
 -0.835
 ```
 
-![img](10)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/10.png?raw=true)
 
 # Two or More Variable Measures
 
@@ -255,13 +255,11 @@ It tells us how the increment of one variable **indicates change** in another va
 
 3. When there is no relationship because there is no trend in data.
 
-![img](11)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/11.png?raw=true)
 
 In general:
 
-![img](slides/20)
-
-
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/slides/20.png?raw=true)
 
 ## Correlation Coefficient
 
@@ -275,7 +273,7 @@ The correlation coefficient is their covariance divided by the product of their 
 0.9008112
 ```
 
-![img](12)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/12.png?raw=true)
 
 The correlation coefficient ranges from [-1,1]. A correlation of zero means that when x increases, y can either grow or decrease, there is no pattern.
 
@@ -297,4 +295,4 @@ M = round(M, 2) # M is the correlation matrix
 corrplot(M, methor="circle") # circle, square, ellipse, number, shade, color, pie
 ```
 
-![img](13)
+![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/13.png?raw=true)

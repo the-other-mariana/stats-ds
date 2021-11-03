@@ -22,10 +22,14 @@ eruptions = mydata$eruptions
 breaks2 = seq(1,6, by =0.1)
 eruptions_cut = cut(eruptions, breaks2, right=F)
 eruptions_table = table(eruptions_cut)
+mode_erup = which.max(eruptions_table)
 relfreq = eruptions_table / nrow(mydata)
 cumrelfreq = cumsum(relfreq)
 plot(cumrelfreq, main='Eruptions', xlab='Minutes', ylab='Cumulative Relative Frecuency')
 lines(cumrelfreq)
+mode_erup
+eruptions_table
+which.max(seq(10,0,by=-1)) # outputs the index where the max is
 
 # additional: cumulative absolute frequency
 eruptions = mydata$eruptions
@@ -52,7 +56,7 @@ relfreq = eruptions_table / nrow(mydata)
 #barplot(relfreq, main='Eruptions')
 
 # pie chart 
-pie(eruptions_table)
+#pie(eruptions_table)
 
 # stem and leaf 
 stem(eruptions)

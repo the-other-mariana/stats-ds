@@ -13,6 +13,14 @@ In other words: the frequency distribution of a data variable (column) is a summ
 
 - `table()`: Creates a table of the counts of all factors.
 
+```R
+> x <- c(8,2,7,1,2,9,8,2,10,9)
+[1]  8  2  7  1  2  9  8  2 10  9
+> y <- table(x)
+1  2  7  8  9 10 
+1  3  1  2  2  1
+```
+
 ## Histogram
 
 A histogram is a bar plot that represents the frecuency distribution of a column.
@@ -182,6 +190,25 @@ eruptions_cut
         0         0 
 ```
 
+To calculate the mode:
+
+- `which(myvec==value)`: The which function in R returns the position of the values in the logical vector.
+
+```R
+> x <- c(8,2,7,1,2,9,8,2,10,9)
+[1]  8  2  7  1  2  9  8  2 10  9
+> y <- table(x)
+1  2  7  8  9 10 
+1  3  1  2  2  1
+> names(table(x))[which(table(x)==max(table(x)))]
+[1] "2"
+```
+
+```R
+> mode_erup = names(eruptions_table)[which(eruptions_table==max(eruptions_table))]
+> mode_erup
+"[1.8,1.9)"
+```
 
 
 

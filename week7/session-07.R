@@ -22,12 +22,13 @@ eruptions = mydata$eruptions
 breaks2 = seq(1,6, by =0.1)
 eruptions_cut = cut(eruptions, breaks2, right=F)
 eruptions_table = table(eruptions_cut)
-mode_erup = which.max(eruptions_table)
 relfreq = eruptions_table / nrow(mydata)
 cumrelfreq = cumsum(relfreq)
 plot(cumrelfreq, main='Eruptions', xlab='Minutes', ylab='Cumulative Relative Frecuency')
 lines(cumrelfreq)
-mode_erup
+# mode of eruptions
+mode_erup = names(eruptions_table)[which(eruptions_table==max(eruptions_table))]
+mode_erup # "[1.8,1.9)"
 eruptions_table
 which.max(seq(10,0,by=-1)) # outputs the index where the max is
 

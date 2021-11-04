@@ -61,3 +61,4 @@ relfreq = eruptions_table / nrow(mydata)
 
 # stem and leaf 
 stem(eruptions)
+sort(eruptions)

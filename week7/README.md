@@ -143,6 +143,8 @@ This plot helps us see not only the distribution shape of the data (overall sill
 stem(eruptions)
 ```
 
+- point in left side of |: 1.6 what can I sum to this? .07 = 16|7 = 1.67
+
 ```
 The decimal point is 1 digit(s) to the left of the |
 
@@ -167,6 +169,17 @@ The decimal point is 1 digit(s) to the left of the |
 ```
 
 Note: (key) 30 | 7 = 3.07
+
+- point in right side of |: 200. + leafs in the -0 order: 2|1 = 210 = 200 + 10
+
+```
+The decimal point is 2 digit(s) to the right of the |
+
+0 | 4
+2 | 011223334555566667778888899900001111223333344455555666688888999
+4 | 111222333445566779001233344567
+6 | 000112233578012234468
+```
 
 ## Other Findings
 

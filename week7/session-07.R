@@ -40,6 +40,9 @@ eruptions_table = table(eruptions_cut) # abs freq
 cumabsfreq = cumsum(eruptions_table)
 #plot(cumabsfreq, main='Eruptions', xlab='Minutes', ylab='Cumulative Absolute Frecuency')
 #lines(cumabsfreq)
+sum(eruptions_table)
+eruptions_table
+cumabsfreq
 
 # additional: absolute frequency bar plot
 eruptions = mydata$eruptions

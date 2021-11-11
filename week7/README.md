@@ -89,6 +89,12 @@ lines(cumabsfreq)
 
 ![img](https://github.com/the-other-mariana/stats-ds/blob/master/week7/res/cumabsfreq.png?raw=true)
 
+From the image above, we can say that:
+
+- no eruption lasted less than 7 minutes: **there is no accumulated frequency before 7**.
+
+- no eruption lasted more than 40 minutes: to the right from 40, the accumulated frequency stops increasing, **the categories x >= 40 do not contribute to the frequency**.
+
 ## Cumulative Relative Frequency Distribution
 
 - Option 1: use `table()` to get the frequency counts

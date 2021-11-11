@@ -52,7 +52,7 @@ The standard deviation is a value in the same units as the original values, whic
 
 By taking the square root, we are returning to the units in which the data is: the variance was not a measure with a direct relationship with the data, and now the stdev is in the same units. We are still summing up the squared differences, we are just returning the value to same unit scope.
 
-- We are still making a sum of squares, that is, **we are still penalizing bigger differences than smaller ones**, which has the purpose of exaggerating some differences that are important. In teh variance and stdev we raise to the squared power in order to eliminate negatives (we do not care if the number is bigger or smaller than the mean, only its distance) and also penalize bigger differences more.
+- We are still making a sum of squares, that is, **we are still penalizing bigger differences than smaller ones**, which has the purpose of exaggerating some differences that are important. In the variance and stdev we raise to the squared power in order to eliminate negatives (we do not care if the number is bigger or smaller than the mean, only its distance) and also penalize bigger differences more.
 
     > Example: we have two data points: -5 and 5. The mean = 0. Their variance would be (25 + 25)/2 = 25, and their stdev is 5. If we just sum the absolute values we would be getting a variance of 5 + 5 = 10. Or if we just sum the differences, we would get a stdev of sqrt(-5 + 5) = 0.
 
@@ -122,7 +122,7 @@ quantile(x) # by default divides into 4 parts
 
 - 18 is the 'Minimum' and 73 is the 'Maximum'.
 
-The **interquartile range** of an observation variable is the difference between its upper and lower quartiles. It is a measure of how far aparte the middle portion of data (50% of all data surroundoing the median) spreads in value. 
+The **interquartile range** of an observation variable is the difference between its upper and lower quartiles. It is a measure of how far apart the middle portion of data (50% of all data surroundoing the median) spreads in value. 
 
 ![IQR=Q_3-Q_1](https://latex.codecogs.com/svg.latex?\Large&space;IQR=Q_3-Q_1)
 

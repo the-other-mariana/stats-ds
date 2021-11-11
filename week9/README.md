@@ -16,7 +16,7 @@ Skewness is when our data, instead of being **symmetrically centered** around th
 
 - If the mayority of data values is concentrated to the left side, we say we have a **Positive Skew**. 
 
-    - The skewness is classified according to the distribution's tail: it is positive skew because the mayority of data values is concentrated on the left side, leaving the tail on the right (positive) side. The parte that has less data value concentration (tail) is the one that determines *the type of skewness*.
+    - The skewness is classified according to the distribution's tail: it is positive skew because the mayority of data values is concentrated on the left side, leaving the tail on the right (positive) side. The part that has less data value concentration (tail) is the one that determines *the type of skewness*.
 
 - If the mayority of data values is concentrated to the right side, we say we have a **Negative Skew**. 
 

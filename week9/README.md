@@ -98,7 +98,7 @@ The kth *central* moment (or moment around the *mean*) of a data population is:
 Where k tells the order of the moment and x_i is each value of vector x. In particular, the second central moment of a population is its **variance**.
 
 ```R
-> install.package("e1071") # in the command prompt
+> install.packages("e1071") # in the command prompt
 > library(e1071)
 > moment(mydata$age, order=2, center=T) # variance
 738.74
@@ -122,7 +122,7 @@ As a note, we send `centre=TRUE` because we want to substract the mean, if we do
 
 - The central moment of kth order is still very sensitive to differences or outliers with the mean.
 
-### Skewness
+## Skewness
 
 The **skewness** (gamma_1) of a data population is defined by the following formula, where mu_2 and mu_3 are the 2nd and 3rd central moments.
 

@@ -171,7 +171,7 @@ where:
 
 - Fr = accumulate relative frequency
 
-- [L_i, L_s) = interval
+- [L_i, L_s) = interval. We choose the interval as: which is the **first interval** that **includes the P** percentage in column Fr?
 
 - A = interval size: L_s - L_i
 

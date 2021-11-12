@@ -28,3 +28,7 @@ cor(x,y)
 M = cor(mydata)
 M = round(M, 2) # M is the correlation matrix
 corrplot(M, method="circle") # circle, square, ellipse, number, shade, color, pie
+x = mydata$eruptions
+mtx = matrix(x, nrow=length(x), ncol=1)
+df = data.frame(mtx)
+df

@@ -1,5 +1,6 @@
 setwd('C:/Users/mariana/Documents/github-mariana/ECID1/stats-ds/week9')
 library(e1071)
+library(corrplot)
 mydata = faithful
 x = mydata$eruptions
 var(x)
@@ -20,3 +21,10 @@ cv = sd(x) / mean(x)
 cv
 skewness(x)
 kurtosis(x) + 3
+y = mydata$waiting
+str(mydata)
+cov(x,y)
+cor(x,y)
+M = cor(mydata)
+M = round(M, 2) # M is the correlation matrix
+corrplot(M, method="circle") # circle, square, ellipse, number, shade, color, pie

@@ -292,7 +292,7 @@ install.packages("corrplot")
 library(corrplot)
 M = cor(mydataframe)
 M = round(M, 2) # M is the correlation matrix
-corrplot(M, methor="circle") # circle, square, ellipse, number, shade, color, pie
+corrplot(M, method="circle") # circle, square, ellipse, number, shade, color, pie
 ```
 
 ![img](https://github.com/the-other-mariana/stats-ds/blob/master/week9/res/13.png?raw=true)

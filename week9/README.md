@@ -155,7 +155,7 @@ The excess kurtosis of a univariate population is defined by:
 
 ![\Large \gamma_2=\frac{\mu_4}{(\mu_2)^2}](https://latex.codecogs.com/svg.latex?\Large&space;\gamma_2=\frac{\mu_4}{(\mu_2)^2}-3)
 
-*The normal distribution has krutosis = 3*.
+*The normal distribution has kurtosis = 3*.
 
 The R language's function `kurtosis()` outputs the kurtosis - 3, or the excess of kurtosis: how different my distribution is from the normal.
 

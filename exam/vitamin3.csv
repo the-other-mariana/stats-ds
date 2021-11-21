@@ -1,0 +1,721 @@
+effort,dose,gender,type
+8.9,placebo,male,blue collar
+8.7,placebo,male,blue collar
+8.3,placebo,male,blue collar
+6.8,placebo,male,blue collar
+7.6,placebo,male,blue collar
+9.7,placebo,male,blue collar
+5.7,placebo,male,blue collar
+6.7,placebo,male,blue collar
+7.5,placebo,male,blue collar
+10.8,placebo,male,blue collar
+8.6,placebo,male,blue collar
+5.5,placebo,male,blue collar
+12.7,placebo,male,blue collar
+8.9,placebo,male,blue collar
+6.9,placebo,male,blue collar
+13.4,placebo,male,blue collar
+6.6,placebo,male,blue collar
+8,placebo,male,blue collar
+9.2,placebo,male,blue collar
+8.1,placebo,male,blue collar
+6.8,placebo,male,blue collar
+7.7,placebo,male,blue collar
+9.6,placebo,male,blue collar
+8.3,placebo,male,blue collar
+6.8,placebo,male,blue collar
+10.4,placebo,male,blue collar
+5.4,placebo,male,blue collar
+6.9,placebo,male,blue collar
+8.1,placebo,male,blue collar
+11.3,placebo,male,blue collar
+6.4,placebo,male,blue collar
+4.6,placebo,male,blue collar
+5.8,placebo,male,blue collar
+9.1,placebo,male,blue collar
+6.7,placebo,male,blue collar
+8.5,placebo,male,blue collar
+6.4,placebo,male,blue collar
+10.1,placebo,male,blue collar
+9.9,placebo,male,blue collar
+9,placebo,male,blue collar
+10.9,placebo,male,blue collar
+8.6,placebo,male,blue collar
+4.9,placebo,male,blue collar
+8.1,placebo,male,blue collar
+4.6,placebo,male,blue collar
+7.5,placebo,male,blue collar
+11.2,placebo,male,blue collar
+8.4,placebo,male,blue collar
+6.9,placebo,male,blue collar
+7.8,placebo,male,blue collar
+6.1,placebo,male,blue collar
+9.6,placebo,male,blue collar
+12.3,placebo,male,blue collar
+7.5,placebo,male,blue collar
+9.6,placebo,male,blue collar
+8.3,placebo,male,blue collar
+4,placebo,male,blue collar
+10.3,placebo,male,blue collar
+6.7,placebo,male,blue collar
+11.8,placebo,male,blue collar
+9.2,placebo,male,white collar
+9.1,placebo,male,white collar
+8.3,placebo,male,white collar
+6.8,placebo,male,white collar
+11.2,placebo,male,white collar
+8.7,placebo,male,white collar
+11.8,placebo,male,white collar
+10.7,placebo,male,white collar
+10.3,placebo,male,white collar
+11.4,placebo,male,white collar
+13.5,placebo,male,white collar
+9.5,placebo,male,white collar
+6.4,placebo,male,white collar
+7,placebo,male,white collar
+8.8,placebo,male,white collar
+8.7,placebo,male,white collar
+8.6,placebo,male,white collar
+10.9,placebo,male,white collar
+6.5,placebo,male,white collar
+9.3,placebo,male,white collar
+8.8,placebo,male,white collar
+8.9,placebo,male,white collar
+8.6,placebo,male,white collar
+10,placebo,male,white collar
+9,placebo,male,white collar
+8.5,placebo,male,white collar
+6.8,placebo,male,white collar
+11,placebo,male,white collar
+10.3,placebo,male,white collar
+12.1,placebo,male,white collar
+9.8,placebo,male,white collar
+7.7,placebo,male,white collar
+5.7,placebo,male,white collar
+14.2,placebo,male,white collar
+9.4,placebo,male,white collar
+10.7,placebo,male,white collar
+4.6,placebo,male,white collar
+9.5,placebo,male,white collar
+7.8,placebo,male,white collar
+9.2,placebo,male,white collar
+10.7,placebo,male,white collar
+7.3,placebo,male,white collar
+7.9,placebo,male,white collar
+7.2,placebo,male,white collar
+11.3,placebo,male,white collar
+12.3,placebo,male,white collar
+6.7,placebo,male,white collar
+6.8,placebo,male,white collar
+9.6,placebo,male,white collar
+11.5,placebo,male,white collar
+11.8,placebo,male,white collar
+8.9,placebo,male,white collar
+6.5,placebo,male,white collar
+12.4,placebo,male,white collar
+8.9,placebo,male,white collar
+7.9,placebo,male,white collar
+10.6,placebo,male,white collar
+9.4,placebo,male,white collar
+5.2,placebo,male,white collar
+8.3,placebo,male,white collar
+9.3,placebo,female,blue collar
+10.6,placebo,female,blue collar
+12,placebo,female,blue collar
+12,placebo,female,blue collar
+7.4,placebo,female,blue collar
+11.4,placebo,female,blue collar
+10.2,placebo,female,blue collar
+13.2,placebo,female,blue collar
+10.1,placebo,female,blue collar
+8.5,placebo,female,blue collar
+12.6,placebo,female,blue collar
+7.7,placebo,female,blue collar
+6.5,placebo,female,blue collar
+8.1,placebo,female,blue collar
+8.7,placebo,female,blue collar
+5.7,placebo,female,blue collar
+10.4,placebo,female,blue collar
+11.4,placebo,female,blue collar
+8.5,placebo,female,blue collar
+4.2,placebo,female,blue collar
+6.1,placebo,female,blue collar
+10.4,placebo,female,blue collar
+7.5,placebo,female,blue collar
+5.1,placebo,female,blue collar
+8.3,placebo,female,blue collar
+6.4,placebo,female,blue collar
+8.1,placebo,female,blue collar
+11,placebo,female,blue collar
+10.8,placebo,female,blue collar
+9.5,placebo,female,blue collar
+9.5,placebo,female,blue collar
+8.6,placebo,female,blue collar
+7.5,placebo,female,blue collar
+7.2,placebo,female,blue collar
+9.3,placebo,female,blue collar
+8.6,placebo,female,blue collar
+7.8,placebo,female,blue collar
+9.9,placebo,female,blue collar
+9.1,placebo,female,blue collar
+8.6,placebo,female,blue collar
+5.4,placebo,female,blue collar
+8.5,placebo,female,blue collar
+7.6,placebo,female,blue collar
+10.7,placebo,female,blue collar
+8.1,placebo,female,blue collar
+3.5,placebo,female,blue collar
+8.5,placebo,female,blue collar
+9.4,placebo,female,blue collar
+11.6,placebo,female,blue collar
+5,placebo,female,blue collar
+8.7,placebo,female,blue collar
+9.4,placebo,female,blue collar
+5.1,placebo,female,blue collar
+11.1,placebo,female,blue collar
+6.5,placebo,female,blue collar
+8.5,placebo,female,blue collar
+10.4,placebo,female,blue collar
+9.3,placebo,female,blue collar
+11.9,placebo,female,blue collar
+10.2,placebo,female,blue collar
+9.6,placebo,female,white collar
+7.9,placebo,female,white collar
+8.3,placebo,female,white collar
+11.3,placebo,female,white collar
+8.8,placebo,female,white collar
+13.2,placebo,female,white collar
+7,placebo,female,white collar
+10,placebo,female,white collar
+10.2,placebo,female,white collar
+8.8,placebo,female,white collar
+9.4,placebo,female,white collar
+6.2,placebo,female,white collar
+9.4,placebo,female,white collar
+10.5,placebo,female,white collar
+9.4,placebo,female,white collar
+10,placebo,female,white collar
+12.5,placebo,female,white collar
+10.4,placebo,female,white collar
+9.5,placebo,female,white collar
+9.6,placebo,female,white collar
+9.2,placebo,female,white collar
+9.9,placebo,female,white collar
+9.5,placebo,female,white collar
+7.8,placebo,female,white collar
+11.2,placebo,female,white collar
+8.8,placebo,female,white collar
+6.3,placebo,female,white collar
+7.1,placebo,female,white collar
+9.7,placebo,female,white collar
+10.3,placebo,female,white collar
+9.4,placebo,female,white collar
+8.1,placebo,female,white collar
+11.2,placebo,female,white collar
+7.6,placebo,female,white collar
+7,placebo,female,white collar
+10.6,placebo,female,white collar
+8,placebo,female,white collar
+9.9,placebo,female,white collar
+9,placebo,female,white collar
+10.3,placebo,female,white collar
+9.6,placebo,female,white collar
+9.7,placebo,female,white collar
+9.1,placebo,female,white collar
+8,placebo,female,white collar
+11.9,placebo,female,white collar
+12.3,placebo,female,white collar
+11.6,placebo,female,white collar
+4.6,placebo,female,white collar
+10.6,placebo,female,white collar
+9.5,placebo,female,white collar
+12.9,placebo,female,white collar
+10.1,placebo,female,white collar
+9.3,placebo,female,white collar
+12.2,placebo,female,white collar
+9.4,placebo,female,white collar
+7.8,placebo,female,white collar
+8.5,placebo,female,white collar
+9.7,placebo,female,white collar
+8.5,placebo,female,white collar
+6.6,placebo,female,white collar
+10.9,low dose,male,blue collar
+14.1,low dose,male,blue collar
+15,low dose,male,blue collar
+16,low dose,male,blue collar
+19.3,low dose,male,blue collar
+14.6,low dose,male,blue collar
+14.3,low dose,male,blue collar
+15.1,low dose,male,blue collar
+16.3,low dose,male,blue collar
+11,low dose,male,blue collar
+18,low dose,male,blue collar
+15.7,low dose,male,blue collar
+14.9,low dose,male,blue collar
+14.6,low dose,male,blue collar
+11.9,low dose,male,blue collar
+14.6,low dose,male,blue collar
+13.5,low dose,male,blue collar
+11.2,low dose,male,blue collar
+15.6,low dose,male,blue collar
+17.9,low dose,male,blue collar
+17.4,low dose,male,blue collar
+16.4,low dose,male,blue collar
+14.3,low dose,male,blue collar
+13.3,low dose,male,blue collar
+16.2,low dose,male,blue collar
+10.1,low dose,male,blue collar
+11.9,low dose,male,blue collar
+14.8,low dose,male,blue collar
+15.7,low dose,male,blue collar
+13.4,low dose,male,blue collar
+15.8,low dose,male,blue collar
+16.2,low dose,male,blue collar
+17.5,low dose,male,blue collar
+15.6,low dose,male,blue collar
+13.6,low dose,male,blue collar
+19.1,low dose,male,blue collar
+16,low dose,male,blue collar
+12.6,low dose,male,blue collar
+14.1,low dose,male,blue collar
+14.2,low dose,male,blue collar
+17.3,low dose,male,blue collar
+16.9,low dose,male,blue collar
+16.7,low dose,male,blue collar
+15.2,low dose,male,blue collar
+14.4,low dose,male,blue collar
+15.6,low dose,male,blue collar
+17.5,low dose,male,blue collar
+15.8,low dose,male,blue collar
+15.8,low dose,male,blue collar
+16.3,low dose,male,blue collar
+14.1,low dose,male,blue collar
+19.3,low dose,male,blue collar
+15.3,low dose,male,blue collar
+17.5,low dose,male,blue collar
+17.2,low dose,male,blue collar
+15.3,low dose,male,blue collar
+16.5,low dose,male,blue collar
+14.8,low dose,male,blue collar
+15,low dose,male,blue collar
+14.1,low dose,male,blue collar
+8.1,low dose,male,white collar
+12,low dose,male,white collar
+10.1,low dose,male,white collar
+11.9,low dose,male,white collar
+9.1,low dose,male,white collar
+10.5,low dose,male,white collar
+13.6,low dose,male,white collar
+10.9,low dose,male,white collar
+14.2,low dose,male,white collar
+11.3,low dose,male,white collar
+12.9,low dose,male,white collar
+9.4,low dose,male,white collar
+10.3,low dose,male,white collar
+15.9,low dose,male,white collar
+11.8,low dose,male,white collar
+11.9,low dose,male,white collar
+14.2,low dose,male,white collar
+13.5,low dose,male,white collar
+5.9,low dose,male,white collar
+12.4,low dose,male,white collar
+14.2,low dose,male,white collar
+14,low dose,male,white collar
+7.4,low dose,male,white collar
+14,low dose,male,white collar
+12.9,low dose,male,white collar
+14.3,low dose,male,white collar
+9,low dose,male,white collar
+9.9,low dose,male,white collar
+14,low dose,male,white collar
+13.2,low dose,male,white collar
+17,low dose,male,white collar
+12,low dose,male,white collar
+12.6,low dose,male,white collar
+11.1,low dose,male,white collar
+13.7,low dose,male,white collar
+11.9,low dose,male,white collar
+13.2,low dose,male,white collar
+13,low dose,male,white collar
+10.4,low dose,male,white collar
+12.8,low dose,male,white collar
+13.9,low dose,male,white collar
+11,low dose,male,white collar
+16,low dose,male,white collar
+12.6,low dose,male,white collar
+11.8,low dose,male,white collar
+15.9,low dose,male,white collar
+12.4,low dose,male,white collar
+12.8,low dose,male,white collar
+13.7,low dose,male,white collar
+12.7,low dose,male,white collar
+6.1,low dose,male,white collar
+12,low dose,male,white collar
+12.8,low dose,male,white collar
+13.8,low dose,male,white collar
+12.9,low dose,male,white collar
+14,low dose,male,white collar
+12.1,low dose,male,white collar
+12.9,low dose,male,white collar
+11,low dose,male,white collar
+14.4,low dose,male,white collar
+11.8,low dose,female,blue collar
+12.8,low dose,female,blue collar
+12.5,low dose,female,blue collar
+11.2,low dose,female,blue collar
+11.6,low dose,female,blue collar
+13.8,low dose,female,blue collar
+13.2,low dose,female,blue collar
+13.2,low dose,female,blue collar
+14.6,low dose,female,blue collar
+12.6,low dose,female,blue collar
+7.7,low dose,female,blue collar
+6.7,low dose,female,blue collar
+10.6,low dose,female,blue collar
+12.8,low dose,female,blue collar
+13.5,low dose,female,blue collar
+10.2,low dose,female,blue collar
+12,low dose,female,blue collar
+14.1,low dose,female,blue collar
+16.4,low dose,female,blue collar
+10.9,low dose,female,blue collar
+13.4,low dose,female,blue collar
+12.3,low dose,female,blue collar
+11.8,low dose,female,blue collar
+8.9,low dose,female,blue collar
+12.4,low dose,female,blue collar
+15,low dose,female,blue collar
+11.4,low dose,female,blue collar
+9.1,low dose,female,blue collar
+12.9,low dose,female,blue collar
+11.9,low dose,female,blue collar
+10.1,low dose,female,blue collar
+16,low dose,female,blue collar
+12.7,low dose,female,blue collar
+9.2,low dose,female,blue collar
+13.8,low dose,female,blue collar
+13.6,low dose,female,blue collar
+11.3,low dose,female,blue collar
+13.2,low dose,female,blue collar
+15.7,low dose,female,blue collar
+14.6,low dose,female,blue collar
+7.7,low dose,female,blue collar
+13.4,low dose,female,blue collar
+11.3,low dose,female,blue collar
+10.7,low dose,female,blue collar
+13.2,low dose,female,blue collar
+8.2,low dose,female,blue collar
+13.1,low dose,female,blue collar
+14.4,low dose,female,blue collar
+11.3,low dose,female,blue collar
+14.5,low dose,female,blue collar
+14.7,low dose,female,blue collar
+14.2,low dose,female,blue collar
+8.2,low dose,female,blue collar
+12.9,low dose,female,blue collar
+12.5,low dose,female,blue collar
+13.6,low dose,female,blue collar
+14.2,low dose,female,blue collar
+13.5,low dose,female,blue collar
+15.8,low dose,female,blue collar
+11.9,low dose,female,blue collar
+13.8,low dose,female,white collar
+14.1,low dose,female,white collar
+14.6,low dose,female,white collar
+14.4,low dose,female,white collar
+10.7,low dose,female,white collar
+13.6,low dose,female,white collar
+13.8,low dose,female,white collar
+15,low dose,female,white collar
+9.8,low dose,female,white collar
+12.3,low dose,female,white collar
+8.4,low dose,female,white collar
+11.2,low dose,female,white collar
+13,low dose,female,white collar
+13,low dose,female,white collar
+12.6,low dose,female,white collar
+14.3,low dose,female,white collar
+11.1,low dose,female,white collar
+11.1,low dose,female,white collar
+11.9,low dose,female,white collar
+10.9,low dose,female,white collar
+10.9,low dose,female,white collar
+11.9,low dose,female,white collar
+12.1,low dose,female,white collar
+12.4,low dose,female,white collar
+8.5,low dose,female,white collar
+14.6,low dose,female,white collar
+12.5,low dose,female,white collar
+10.3,low dose,female,white collar
+8.6,low dose,female,white collar
+12.2,low dose,female,white collar
+15.1,low dose,female,white collar
+13.5,low dose,female,white collar
+15.8,low dose,female,white collar
+12.3,low dose,female,white collar
+9,low dose,female,white collar
+12.2,low dose,female,white collar
+8.6,low dose,female,white collar
+12.5,low dose,female,white collar
+10.7,low dose,female,white collar
+15.5,low dose,female,white collar
+7.6,low dose,female,white collar
+11.9,low dose,female,white collar
+13.4,low dose,female,white collar
+12.2,low dose,female,white collar
+12.2,low dose,female,white collar
+11.4,low dose,female,white collar
+12.6,low dose,female,white collar
+13.7,low dose,female,white collar
+14.1,low dose,female,white collar
+15.2,low dose,female,white collar
+14.8,low dose,female,white collar
+10.8,low dose,female,white collar
+13.9,low dose,female,white collar
+12,low dose,female,white collar
+10.8,low dose,female,white collar
+11.4,low dose,female,white collar
+9.5,low dose,female,white collar
+8.9,low dose,female,white collar
+8.7,low dose,female,white collar
+13.2,low dose,female,white collar
+20.1,high dose,male,blue collar
+15.8,high dose,male,blue collar
+16.7,high dose,male,blue collar
+18.6,high dose,male,blue collar
+19.7,high dose,male,blue collar
+17.1,high dose,male,blue collar
+19.5,high dose,male,blue collar
+21,high dose,male,blue collar
+19.8,high dose,male,blue collar
+19,high dose,male,blue collar
+13.8,high dose,male,blue collar
+16,high dose,male,blue collar
+14.5,high dose,male,blue collar
+19.3,high dose,male,blue collar
+19.4,high dose,male,blue collar
+19.5,high dose,male,blue collar
+18.7,high dose,male,blue collar
+16,high dose,male,blue collar
+14.3,high dose,male,blue collar
+19.7,high dose,male,blue collar
+16.3,high dose,male,blue collar
+15.2,high dose,male,blue collar
+18.2,high dose,male,blue collar
+17.4,high dose,male,blue collar
+19.5,high dose,male,blue collar
+17,high dose,male,blue collar
+18.8,high dose,male,blue collar
+19.2,high dose,male,blue collar
+18.4,high dose,male,blue collar
+16.7,high dose,male,blue collar
+15,high dose,male,blue collar
+19.6,high dose,male,blue collar
+18.5,high dose,male,blue collar
+17.9,high dose,male,blue collar
+20.7,high dose,male,blue collar
+17.1,high dose,male,blue collar
+19.4,high dose,male,blue collar
+16.4,high dose,male,blue collar
+15.3,high dose,male,blue collar
+18.1,high dose,male,blue collar
+16.9,high dose,male,blue collar
+19.6,high dose,male,blue collar
+17.6,high dose,male,blue collar
+23.7,high dose,male,blue collar
+20.8,high dose,male,blue collar
+14.7,high dose,male,blue collar
+16.7,high dose,male,blue collar
+18.9,high dose,male,blue collar
+17,high dose,male,blue collar
+18.4,high dose,male,blue collar
+16.7,high dose,male,blue collar
+19.4,high dose,male,blue collar
+17,high dose,male,blue collar
+17.9,high dose,male,blue collar
+16.9,high dose,male,blue collar
+17.2,high dose,male,blue collar
+16.8,high dose,male,blue collar
+12.2,high dose,male,blue collar
+14.2,high dose,male,blue collar
+19.2,high dose,male,blue collar
+14.1,high dose,male,white collar
+17.8,high dose,male,white collar
+15.1,high dose,male,white collar
+17.4,high dose,male,white collar
+18.9,high dose,male,white collar
+16.2,high dose,male,white collar
+15.2,high dose,male,white collar
+13.8,high dose,male,white collar
+15,high dose,male,white collar
+12.6,high dose,male,white collar
+17.6,high dose,male,white collar
+16.3,high dose,male,white collar
+16.5,high dose,male,white collar
+17.4,high dose,male,white collar
+16.2,high dose,male,white collar
+15,high dose,male,white collar
+16.7,high dose,male,white collar
+14.5,high dose,male,white collar
+15.6,high dose,male,white collar
+16.6,high dose,male,white collar
+13.6,high dose,male,white collar
+14.1,high dose,male,white collar
+17.4,high dose,male,white collar
+16.9,high dose,male,white collar
+18.6,high dose,male,white collar
+12.7,high dose,male,white collar
+12.8,high dose,male,white collar
+15.5,high dose,male,white collar
+21.3,high dose,male,white collar
+14.6,high dose,male,white collar
+15.2,high dose,male,white collar
+15.4,high dose,male,white collar
+22,high dose,male,white collar
+15.5,high dose,male,white collar
+12.7,high dose,male,white collar
+16.8,high dose,male,white collar
+15.8,high dose,male,white collar
+19.2,high dose,male,white collar
+17.6,high dose,male,white collar
+14.7,high dose,male,white collar
+14.1,high dose,male,white collar
+14.1,high dose,male,white collar
+14.3,high dose,male,white collar
+15.1,high dose,male,white collar
+13.8,high dose,male,white collar
+20.4,high dose,male,white collar
+10.8,high dose,male,white collar
+14,high dose,male,white collar
+17.5,high dose,male,white collar
+18.9,high dose,male,white collar
+14,high dose,male,white collar
+16.8,high dose,male,white collar
+12.6,high dose,male,white collar
+17.1,high dose,male,white collar
+15.4,high dose,male,white collar
+17.2,high dose,male,white collar
+16.5,high dose,male,white collar
+17.6,high dose,male,white collar
+16.2,high dose,male,white collar
+15.5,high dose,male,white collar
+10.5,high dose,female,blue collar
+8.1,high dose,female,blue collar
+11.2,high dose,female,blue collar
+9,high dose,female,blue collar
+13.3,high dose,female,blue collar
+10.9,high dose,female,blue collar
+13,high dose,female,blue collar
+13.9,high dose,female,blue collar
+13,high dose,female,blue collar
+13.5,high dose,female,blue collar
+11.8,high dose,female,blue collar
+13.4,high dose,female,blue collar
+10.8,high dose,female,blue collar
+10.4,high dose,female,blue collar
+11.7,high dose,female,blue collar
+11.8,high dose,female,blue collar
+10.6,high dose,female,blue collar
+7.5,high dose,female,blue collar
+11,high dose,female,blue collar
+10.5,high dose,female,blue collar
+8.3,high dose,female,blue collar
+11.8,high dose,female,blue collar
+12.9,high dose,female,blue collar
+13.9,high dose,female,blue collar
+13.7,high dose,female,blue collar
+14.9,high dose,female,blue collar
+12,high dose,female,blue collar
+10.7,high dose,female,blue collar
+7.9,high dose,female,blue collar
+10.3,high dose,female,blue collar
+8.4,high dose,female,blue collar
+12.5,high dose,female,blue collar
+14,high dose,female,blue collar
+16.3,high dose,female,blue collar
+10.1,high dose,female,blue collar
+11.5,high dose,female,blue collar
+7.3,high dose,female,blue collar
+8.9,high dose,female,blue collar
+12,high dose,female,blue collar
+10.3,high dose,female,blue collar
+13.3,high dose,female,blue collar
+9.7,high dose,female,blue collar
+10.6,high dose,female,blue collar
+11.8,high dose,female,blue collar
+10.1,high dose,female,blue collar
+9.9,high dose,female,blue collar
+10,high dose,female,blue collar
+9.8,high dose,female,blue collar
+10.4,high dose,female,blue collar
+11.9,high dose,female,blue collar
+11.7,high dose,female,blue collar
+11.6,high dose,female,blue collar
+10.4,high dose,female,blue collar
+9.5,high dose,female,blue collar
+12.2,high dose,female,blue collar
+10.8,high dose,female,blue collar
+9.9,high dose,female,blue collar
+13.6,high dose,female,blue collar
+15.4,high dose,female,blue collar
+9.6,high dose,female,blue collar
+13.2,high dose,female,white collar
+13.2,high dose,female,white collar
+12,high dose,female,white collar
+14.2,high dose,female,white collar
+14.4,high dose,female,white collar
+13.3,high dose,female,white collar
+12.1,high dose,female,white collar
+12.2,high dose,female,white collar
+15.6,high dose,female,white collar
+16.5,high dose,female,white collar
+11.1,high dose,female,white collar
+11.6,high dose,female,white collar
+15.5,high dose,female,white collar
+15.6,high dose,female,white collar
+12.9,high dose,female,white collar
+15,high dose,female,white collar
+14,high dose,female,white collar
+13.9,high dose,female,white collar
+15.7,high dose,female,white collar
+12.2,high dose,female,white collar
+17.4,high dose,female,white collar
+14.1,high dose,female,white collar
+14.6,high dose,female,white collar
+15.3,high dose,female,white collar
+13.7,high dose,female,white collar
+14.6,high dose,female,white collar
+18.8,high dose,female,white collar
+14.6,high dose,female,white collar
+15.1,high dose,female,white collar
+9.7,high dose,female,white collar
+12.9,high dose,female,white collar
+11.9,high dose,female,white collar
+15.6,high dose,female,white collar
+14.6,high dose,female,white collar
+14.7,high dose,female,white collar
+11.2,high dose,female,white collar
+18.1,high dose,female,white collar
+14.9,high dose,female,white collar
+14.3,high dose,female,white collar
+10.8,high dose,female,white collar
+16.8,high dose,female,white collar
+15.3,high dose,female,white collar
+13.8,high dose,female,white collar
+15.5,high dose,female,white collar
+14.7,high dose,female,white collar
+10.7,high dose,female,white collar
+11.8,high dose,female,white collar
+14,high dose,female,white collar
+13.8,high dose,female,white collar
+10,high dose,female,white collar
+17.2,high dose,female,white collar
+12.8,high dose,female,white collar
+14.9,high dose,female,white collar
+13.7,high dose,female,white collar
+14.5,high dose,female,white collar
+14,high dose,female,white collar
+14.2,high dose,female,white collar
+13,high dose,female,white collar
+12.2,high dose,female,white collar
+14.5,high dose,female,white collar

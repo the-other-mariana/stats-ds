@@ -14,7 +14,7 @@ A random experiment is a process through which we observe something uncertain.
 
 - Trial/Event: flip a coin **once**.
 
-- **Sample space** omega = {Face, Cross} o omega = {C, R}
+- **Sample space** omega = {Face, Cross} or omega = {C, R}
 
     - Event 1: C
 
@@ -26,7 +26,7 @@ A random experiment is a process through which we observe something uncertain.
 
 - Trial/Event: flip a coin **three times** and observe the *sequence* of C and R. Order matters.
 
-- Evento 1: CCR
+- Event 1: CCR
 
 - Event 2: RCR
 

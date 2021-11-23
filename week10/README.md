@@ -140,13 +140,13 @@ If you would've liked to know the **probability of a data point being bigger tha
 
 ### Exercises:
 
-- [Exercise 1]()
+- [Exercise 1](slides/22.png)
 
     - Answer:
 
     ![img](res/13.png)
 
-- [Exercise 2]()
+- [Exercise 2](slides/23.png)
 
 - Answer:
 

@@ -15,3 +15,5 @@ This repo contains notes and exercises in R language in order to learn the basic
 4. [Distributions: Skewness, Kurtosis, Excess of Kurtosis](https://github.com/the-other-mariana/stats-ds/tree/master/week9)
 
 5. [The Normal Distribution](https://github.com/the-other-mariana/stats-ds/tree/master/week10)
+
+6. [Probability Review](https://github.com/the-other-mariana/stats-ds/tree/master/week12)

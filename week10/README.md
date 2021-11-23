@@ -109,7 +109,7 @@ To **standarize** any distribution, we need to transform **each data point** by 
 
 ### Function
 
-After the standarization of a distribution, the funcion shifts to being a Standard Normal Distribution Function:
+After the standarization of a distribution, the function shifts to being a Standard Normal Distribution Function:
 
 ![\huge&space;y=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\rightarrow\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}](https://latex.codecogs.com/svg.latex?\huge&space;y=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\rightarrow\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}})
 
@@ -162,7 +162,7 @@ where x = 84 and you want upper tail probability: if `lower.tail=TRUE`, then p(X
 
 ## QQ Plot
 
-In order to compare how a series of data, that have a Normal Distibution behaviour, is similar to the Standard Normal Distribution, we can use the **Quantil-quantil plot (QQ Plot)**.
+In order to compare how a series of data, that have a Normal Distribution behaviour, is similar to the Standard Normal Distribution, we can use the **Quantil-quantil plot (QQ Plot)**.
 
 ```R
 qqnorm(mydata$age, pch=1, frame=TRUE) # pch

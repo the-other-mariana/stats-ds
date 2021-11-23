@@ -165,7 +165,7 @@ where x = 84 and you want upper tail probability: if `lower.tail=TRUE`, then p(X
 In order to compare how a series of data, that have a Normal Distribution behaviour, is similar to the Standard Normal Distribution, we can use the **Quantil-quantil plot (QQ Plot)**.
 
 ```R
-qqnorm(mydata$age, pch=1, frame=TRUE) # pch
+qqnorm(mydata$age, pch=1, frame=TRUE) # pch = plot symbol to use
 qqline(mydata$age, col='magenta', lwd=2)
 ```
 

@@ -19,3 +19,7 @@ This repo contains notes and exercises in R language in order to learn the basic
 6. [Probability Review](https://github.com/the-other-mariana/stats-ds/tree/master/week12)
 
 6. [Bernoulli and Binomial Distributions](https://github.com/the-other-mariana/stats-ds/tree/master/week13)
+
+## LaTeX codecogs For Equations
+
+- https://www.codecogs.com/latex/eqneditor.php#google_vignette

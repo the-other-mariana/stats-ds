@@ -237,6 +237,33 @@ x = 0
 dpois(x, lambda=3)
 ```
 
+The probability Function Plot
+
+```R
+# poisson probability function plot
+lambda = 5
+n = 40
+
+# rep: repeat zeros n times: array
+aux = rep(0, (n+1)*2)
+# the indices seq(2,(n+1)*2,2) leave dpois, 0, dpois, 0, etc (dpois in even spots)
+aux[seq(2,(n+1)*2,2)] = dpois(c(0:n), lambda = lambda)
+
+# max dpois value for ylim
+ymax = max(dpois(0:n, lambda=lambda))
+
+plot(x=c(0:n), y=dpois(c(0:n), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n+1), xlab="x", ylab="probability", main="Probability Function")
+# y aux: dpois height, 0 height, dpois height, 0, etc
+# x=rep(0:n, each=2): 1 1 2 2 3 3 4 4 ... n n
+lines(x=rep(0:n, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+```
+
+![img](res/8.png)
+
+### Params
+
+![img](res/9.png)
+
 - Distribution (Cumulative Probability)
 
 ```R
@@ -245,6 +272,16 @@ ppois(x, lambda=3) # P(x <= 3)
 # lower.tail = TRUE (default), P(x <= x)
 # lower.tail = FALSE, P(x > x)
 ```
+
+For the distribution plot (cumulative distribution plot), we can do the following:
+
+```R
+x = 3
+lambda = 3
+curve(ppois(x, lambda=lambda), xlim=c(-1,n+1), col="blue", ylab="cumulative distribution", main="Distribution Function")
+```
+
+![img](res/11.png)
 
 - Random Sample with Poisson Distribution
 
@@ -256,3 +293,31 @@ rpois(n=100, lambda=3)
 ```
 
 *The mayority of numbers will be around lambda value. The mean will be very close or equal to 3. Thus, each number represents the number of occurrences of the event in the time interval, that happens 100 times.*
+
+
+## Lambda Location
+
+As seen below, if we remember the **mean for poisson distribution is equal to lambda**, and thus, the bump will be nearby the mean or lambda value.
+
+![img](res/10.png)
+
+*It is important to note that poisson is a discrete distribution.*
+
+### Exercises
+
+![img](res/12.png)
+
+2. A runner injures himself an average of 3 times per year. Calculate the probability of:
+
+    - 4 times a year
+
+    > lambda = 3, t = 1 year, P(X=4)
+
+    - More than 3 times a year
+
+    > lambda = 3, t = 1 year, P(X > 3) = 1 - P(X <= 3)
+
+    - Once in 6 months
+
+    > lambda = 1.5, t = 0.5 year, P(X=1)
+

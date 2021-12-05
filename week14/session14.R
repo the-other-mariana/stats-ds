@@ -22,7 +22,7 @@ curve(pbinom(x, size=10, prob=0.5), xlim=c(-1,11), col="blue", ylab="Cumulative 
 rpois(n=100, lambda=3)
 
 # poisson probability function plot
-lambda = 5
+lambda = 30
 n = 40
 
 aux = rep(0, (n+1)*2)
@@ -30,5 +30,10 @@ aux[seq(2,(n+1)*2,2)] = dpois(c(0:n), lambda = lambda)
 
 ymax = max(dpois(0:n, lambda=lambda))
 
-#plot(x=c(0:n), y=dpois(c(0:n), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n+1), xlab="x", ylab="probability", main="Probability Function")
-#lines(x=rep(0:n, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+plot(x=c(0:n), y=dpois(c(0:n), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n+1), xlab="x", ylab="probability", main="Probability Function")
+lines(x=rep(0:n, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+
+# poisson distribution function
+x = 3
+lambda = 3
+curve(ppois(x, lambda=lambda), xlim=c(-1,n+1), col="blue", ylab="cumulative distribution", main="Distribution Function")

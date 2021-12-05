@@ -321,3 +321,136 @@ As seen below, if we remember the **mean for poisson distribution is equal to la
 
     > lambda = 1.5, t = 0.5 year, P(X=1)
 
+# Data & Sampling
+
+1. Descriptive Statistics: Mean, Median, Mode, etc.
+
+2. Inference Statistics: samples in order to infere bout the population.
+
+## Concepts
+
+- Sample: subset of a set of data that is larger than the subset.
+
+- Population: the larger set of data or the idea of this set.
+
+## Steps of an Inference Study
+
+1. Feature to estimate or hypothesis.
+
+2. **Determine the needed data set (sample)**.
+
+3. Design an experiment to collect data.
+
+4. Choose techniques for inference.
+
+5. Take a sample.
+
+6. Apply inference techniques.
+
+7. Redact a report.
+
+## Characteristics of a Sample
+
+- All elements of a sample, by definition, must be **part of the population**.
+
+- The sample must be **representative** of the population it is extracted from.
+
+- In almost all cases, the samples of the same population must be **independent from each other**.
+
+- The sample could be chosen **randomly** out of the population (random sample) or **in another way**.
+
+## Types of sampling
+
+- Random sampling, with replacement or without replacement.
+
+    Select the sample element randomly. **All samples of the same size are equiprobable**.
+
+    - **With replacement** means that when you take out one data point, and you will take the next, the first is put back with all remaining data points: in this case, before generating the next sample, you 'put back' all the data points you took out for the first sample. 
+
+    - **Without replacement**: the probability is changing according to the samples that are being taken.
+
+    This two types are equivalent if the **population is of size 1000 times the sample**.
+
+    ```R
+    # 1:150 - indices from which you take out the sample (basically all the data set)
+    # 10 - sample size
+
+    mydata = iris
+    indices = sample(1:150, 10, replace=TRUE) # obtain a sample from a vector
+    sample1 = mydata[indices,] # [indices,] all columns
+    table(sample1$Species)
+    > setosa    versicolor      virginica
+    > 3         2               5
+    ```
+
+    Since this is a random sample, we do not need to preserve the proportion of species (if you have at least one of each it's ok), that's why we have 3, 2 and 5 of each species, whereas in the whole data set (population) there are 50, 50 and 50 of each one.
+
+- Systematic sampling.
+
+    Select data in constant intervals (k=5), choosing randomly the first (i=2). This sampling is recommended in sorted data.
+
+    ![img](res/13.png)
+
+    1. We choose a random number in the data interval.
+
+    ```R
+    first = sample(1:150, 1)
+    first
+    > 83
+    ```
+
+    2. Create a sequence using the required interval among the selected data, in this case 17.
+
+    ```R
+    sel = seq(from=first, by=17, length=10)
+    ```
+
+    3. Apply a modulo to restrict values from 1 to 150 (indices). Check also that 0 is not there.
+
+    ```R
+    sel = sel%%150
+    ```
+
+    4. Select the data from the selected indices (row indices)
+
+    ```R
+    sample2 = mydata[sel,]
+    # check proportion
+    table(sample2$Species)
+    > setosa    versicolor      virginica
+    > 3         4               3
+    ```
+
+- Stratificated sampling.
+
+    If the population is classified in strata or interest groups. The proportion of the population **is maintained in the sample**: we must take a proportional quantity of the size of the group in the poplation. For this, we compute the percentage of the group in the population and now apply it to the sample size to know the number of data points from said group we need.
+
+    ![img](res/14.png)
+
+    Since the iris data set is sorted by species:
+
+    ```R
+    # now if they are sorted by species
+    tmp = mydata$Species
+    tmp = as.numeric(tmp)
+    head(tmp)
+    plot(tmp)
+
+    # take 6 rows from every group
+    idx1 = sample(1:50, 6, replace=TRUE)
+    idx2 = sample(51:100, 6, replace=TRUE)
+    idx3 = sample(101:150, 6, replace=TRUE)
+
+    # select from the data the set of indices we got: rbind adds rows under the existing ones
+    sample3 = rbind(mydata[idx1,], mydata[idx2,], mydata[idx3,])
+    
+    # check the original proportion
+    table(sample3$Species)
+    > setosa    versicolor      virginica
+    > 6         6               6
+    ```
+
+- Sampling by clusters (por conglomerado).
+
+- Multi-stage sampling (polietápico).
+

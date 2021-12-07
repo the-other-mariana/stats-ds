@@ -68,20 +68,6 @@ X: omega -> R
 
 ----
 
-- Random experiment: get an even number of points of a dice.
-
-omega = {X=2, X=4, X=6}
-
-- Event: A = {2, 4, 6}
-
-----
-
-- Random experiment: get a number of points of a dice less or equal to 3.
-
-- Event: B = {1, 2, 3}, equivalent to omega = {X=1, X=2, X=3} or {X<=3}.
-
----- 
-
 - Random experiment: hit the center of a circle.
 
 - Sample space: omega = {success, fail}

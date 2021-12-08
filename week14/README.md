@@ -325,7 +325,7 @@ As seen below, if we remember the **mean for poisson distribution is equal to la
 
 1. Descriptive Statistics: Mean, Median, Mode, etc.
 
-2. Inference Statistics: samples in order to infere bout the population.
+2. Inference Statistics: samples in order to infere something about the population.
 
 ## Concepts
 

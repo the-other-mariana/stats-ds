@@ -59,3 +59,93 @@ x = c(min(con2):max(con2))
 curve(pnorm(x, mean=93, sd=42), xlim=c(min(con2),max(con2)), col="blue", ylab="Cumulative Ditribution",
       main="Ditribution Function")
 
+# 4.1
+# TECHNICIAN 1
+p_success = 45/50
+12*p_success
+aux = rep(0,24) # repeat
+aux[seq(2,24,2)] = dbinom(c(1:12), size=12, prob=p_success)
+plot(x=c(1:12), y=dbinom(c(1:12), size=12, prob=p_success),
+     ylim=c(0,1), xlim=c(0,13), xlab="x", ylab="probability of x successes",
+     main="Probability Function Binomial, n=12, technician 1")
+lines(x=rep(1:12, each=2), y=aux, type="h", lty=2, col="blue")
+
+# TECHNICIAN 2
+p_success = 29/35
+12*p_success
+aux = rep(0,24) # repeat
+aux[seq(2,24,2)] = dbinom(c(1:12), size=12, prob=p_success)
+plot(x=c(1:12), y=dbinom(c(1:12), size=12, prob=p_success),
+     ylim=c(0,1), xlim=c(0,13), xlab="x", ylab="probability of x successes",
+     main="Probability Function Binomial, n=12, technician 2")
+lines(x=rep(1:12, each=2), y=aux, type="h", lty=2, col="blue")
+
+# TECHNICIAN 3
+p_success = 31/40
+12*p_success
+aux = rep(0,24) # repeat
+aux[seq(2,24,2)] = dbinom(c(1:12), size=12, prob=p_success)
+plot(x=c(1:12), y=dbinom(c(1:12), size=12, prob=p_success),
+     ylim=c(0,1), xlim=c(0,13), xlab="x", ylab="probability of x successes",
+     main="Probability Function Binomial, n=12, technician 3")
+lines(x=rep(1:12, each=2), y=aux, type="h", lty=2, col="blue")
+
+# 4.4
+p_success = 45/50
+p1 = dbinom(10, size=12, prob=p_success)
+p1
+p_success = 29/35
+p2 = dbinom(10, size=12, prob=p_success)
+p2
+p_success = 31/40
+p3 = dbinom(10, size=12, prob=p_success)
+p3
+
+
+# 4.5
+x_value = 6
+num_of_trials_in_event = 12
+p_success = 45/50
+p1 = pbinom(x_value, size=num_of_trials_in_event, prob=p_success) # F(X<=x)
+p1
+p_success = 29/35
+p2 = pbinom(x_value, size=num_of_trials_in_event, prob=p_success) # F(X<=x)
+p2
+p_success = 31/40
+p3 = pbinom(x_value, size=num_of_trials_in_event, prob=p_success) # F(X<=x)
+p3
+
+# 4.6
+# NEW TECHNICIAN
+p_success = 7/12
+aux = rep(0,24) # repeat
+aux[seq(2,24,2)] = dbinom(c(1:12), size=12, prob=p_success)
+plot(x=c(1:12), y=dbinom(c(1:12), size=12, prob=p_success),
+     ylim=c(0,1), xlim=c(0,13), xlab="x", ylab="probability of x successes",
+     main="Probability Function Binomial, n=12, technician 4")
+lines(x=rep(1:12, each=2), y=aux, type="h", lty=2, col="blue")
+
+# 5.2
+dpois(35, lambda=20)
+dpois(35, lambda=30)
+dpois(35, lambda=40)
+
+# poisson probability function plot
+lambda = 40
+n = 60
+
+# rep: repeat zeros n times: array
+aux = rep(0, (n+1)*2)
+# the indices seq(2,(n+1)*2,2) leave dpois, 0, dpois, 0, etc (dpois in even spots)
+aux[seq(2,(n+1)*2,2)] = dpois(c(0:n), lambda = lambda)
+
+# max dpois value for ylim
+ymax = max(dpois(0:n, lambda=lambda))
+
+plot(x=c(0:n), y=dpois(c(0:n), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n+1), xlab="x", ylab="probability", main="Probability Function")
+# y aux: dpois height, 0 height, dpois height, 0, etc
+# x=rep(0:n, each=2): 1 1 2 2 3 3 4 4 ... n n
+lines(x=rep(0:n, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+
+
+

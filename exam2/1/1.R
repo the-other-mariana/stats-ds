@@ -125,27 +125,59 @@ plot(x=c(1:12), y=dbinom(c(1:12), size=12, prob=p_success),
      main="Probability Function Binomial, n=12, technician 4")
 lines(x=rep(1:12, each=2), y=aux, type="h", lty=2, col="blue")
 
+# 5.1
+# low season
+lambda = 20
+n2 = 50
+n1 = 5
+
+aux = rep(0, (n2 -n1 +1)*2)
+aux[seq(2,(n2 -n1 +1)*2,2)] = dpois(c(n1:n2), lambda = lambda)
+ymax = max(dpois(n1:n2, lambda=lambda))
+
+plot(x=c(n1:n2), y=dpois(c(n1:n2), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n2-n1+1),
+     xlab="x", ylab="probability", main="Probability Function, Low")
+lines(x=rep(n1:n2, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+# summer season
+lambda = 30
+n2 = 50
+n1 = 5
+
+aux = rep(0, (n2 -n1 +1)*2)
+aux[seq(2,(n2 -n1 +1)*2,2)] = dpois(c(n1:n2), lambda = lambda)
+ymax = max(dpois(n1:n2, lambda=lambda))
+
+plot(x=c(n1:n2), y=dpois(c(n1:n2), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n2-n1+1),
+     xlab="x", ylab="probability", main="Probability Function, Summer")
+lines(x=rep(n1:n2, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+# december season
+lambda = 40
+n2 = 50
+n1 = 5
+
+aux = rep(0, (n2 -n1 +1)*2)
+aux[seq(2,(n2 -n1 +1)*2,2)] = dpois(c(n1:n2), lambda = lambda)
+ymax = max(dpois(n1:n2, lambda=lambda))
+
+plot(x=c(n1:n2), y=dpois(c(n1:n2), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n2-n1+1),
+     xlab="x", ylab="probability", main="Probability Function, December")
+lines(x=rep(n1:n2, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
+
 # 5.2
 dpois(35, lambda=20)
 dpois(35, lambda=30)
 dpois(35, lambda=40)
 
-# poisson probability function plot
-lambda = 40
-n = 60
+# 5.3
+dpois(25, lambda=20)
+dpois(25, lambda=30)
+dpois(25, lambda=40)
 
-# rep: repeat zeros n times: array
-aux = rep(0, (n+1)*2)
-# the indices seq(2,(n+1)*2,2) leave dpois, 0, dpois, 0, etc (dpois in even spots)
-aux[seq(2,(n+1)*2,2)] = dpois(c(0:n), lambda = lambda)
+# 5.5
+ppois(35, lambda=20) - ppois(25, lambda=20)
+ppois(35, lambda=30) - ppois(25, lambda=30)
+ppois(35, lambda=40) - ppois(25, lambda=40)
 
-# max dpois value for ylim
-ymax = max(dpois(0:n, lambda=lambda))
-
-plot(x=c(0:n), y=dpois(c(0:n), lambda = lambda), ylim=c(0,ymax), xlim=c(-1,n+1), xlab="x", ylab="probability", main="Probability Function")
-# y aux: dpois height, 0 height, dpois height, 0, etc
-# x=rep(0:n, each=2): 1 1 2 2 3 3 4 4 ... n n
-lines(x=rep(0:n, each=2), y=aux, pch=21, type="h", lty=2, col="blue")
 
 
 
